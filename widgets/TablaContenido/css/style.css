@@ -1,0 +1,122 @@
+.tabladecontenido{
+
+	height: 99%!important;
+
+}
+.tab-content{
+
+	height: 95%!important;
+
+}
+
+#nav-tabla-contenido{
+
+	height: 99%!important;
+	overflow: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-color: #dddddd;
+
+}
+
+#nav-orden-capas{
+
+	height: 99%!important;
+	overflow: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-color: #dddddd;
+	
+}
+
+#buscarTOC{
+	height: 30px;
+	width: 60%;
+	display: unset!important;
+}
+
+.divBuscar{
+    width: 100%!important;
+    max-width: 100%!important;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 0px;
+    height: 30px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+
+}
+
+.inputBuscar{
+
+	height: 30px;
+}
+
+.btnBuscar{
+	height: 30px!important;
+	border-radius: 0!important;
+	padding: 1px 6px!important;
+	padding-top: 1px!important;
+	padding-right: 6px!important;
+	padding-bottom: 1px!important;
+	padding-left: 6px!important;
+}
+
+.divcontenedorTOC{
+	height: 90%;
+	overflow: auto;
+	border-top: 1px;
+	border-right: 0px;
+	border-style: solid;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-color: #dddddd;
+}
+
+#jstree-marker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: -10px 0 0 0;
+	padding: 0;
+	border-right: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+  }
+  .slider {
+    -webkit-appearance: none;
+    width: 85%;
+    height: 7px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #228b22;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #228b22;
+    cursor: pointer;
+}

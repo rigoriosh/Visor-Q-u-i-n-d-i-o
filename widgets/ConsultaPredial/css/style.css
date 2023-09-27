@@ -1,0 +1,28 @@
+.jimu-widget-consultaCatastral .trConsultaCatastral {
+  vertical-align: baseline;
+  height: 30px!important;
+}
+
+.jimu-widget-consultaCatastral .labelConsultaCatastral {
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.jimu-widget-consultaCatastral  #divTablaCc {
+  height: 108px;
+  width: 560px;
+}
+
+.jimu-widget-consultaCatastral  #botonesTablaConsultaCatastral {
+  padding-top: 10px;
+}
+
+.jimu-widget-consultaCatastral  .radioBtnConsultaCatastral {
+  margin-top: 6px;
+}
+
+.jimu-widget-consultaCatastral  .btnConsultaCatastral {
+  width: 100px;
+  margin-top: 10px;
+}

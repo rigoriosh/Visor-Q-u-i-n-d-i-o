@@ -1,0 +1,21 @@
+{
+  "basemapGallery": {
+    "mode": 2,
+    "basemaps": [
+      {
+        "title": "Mapa base IGAC",
+        "layers": [
+          {
+            "url": "http://190.85.164.30:6080/arcgis/rest/services/QUINDIO_III/MAPA_BASE_SIG_CIAF1/MapServer",
+            "url_da404": "https://sigquindio.gov.co:8443/arcgis/rest/services/QUINDIO_III/MAPA_BASE_SIG_CIAF1/MapServer"
+          }
+        ],
+        "spatialReference": {
+          "wkid": 4686
+        },
+        "thumbnailUrl": "images/otroMapa.PNG"
+      }
+
+    ]
+  }
+}

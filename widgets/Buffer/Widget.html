@@ -1,0 +1,85 @@
+
+<div id="buff" data-dojo-type="dijit/TitlePane" data-dojo-props="title:'Buffer', closable:false, open:false">
+    <div id="divFormularioBuffer">    
+        
+        <table>
+            <tr>
+                <td>
+                        <label style="font-weight: bold; text-align: left; width:82%; padding-right: 10px">Servicios:</label>
+                </td>
+                <td>
+                    <select id="servicios" class="textoB"></select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding-top: 10px">
+                    <label style="font-weight: bold; text-align: left; width:82%; padding-right: 10px">Grupos:</label>
+                </td>
+                <td style="padding-top: 10px">
+                    <select id="grupos" class="textoB"></select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding-top: 10px">
+                    <label style="font-weight: bold; text-align: left; width:82%; padding-right: 10px">Capas:</label>
+                </td>
+                <td style="padding-top: 10px">
+                    <select id="capas" class="textoB"></select>                                                    
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding-top: 10px">
+                    <label style="font-weight: bold; text-align: left; width:82%; padding-right: 10px">Distancia:</label>
+                </td>
+                <td style="padding-top: 10px">
+                    <input type="text" id="distance" size="5" value="500" class="inputTexB"/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding-top: 10px">
+                    <label style="font-weight: bold; text-align: left; width:82%; padding-right: 10px">Unidad:</label>
+                </td>
+                <td style="padding-top: 10px">
+                    <select id="unit" class="inputTexB">
+                            <option value="UNIT_METER">Metros</option>
+                            <option value="UNIT_KILOMETER">Kil&oacute;metros</option>
+                            <option value="UNIT_STATUTE_MILE">Millas</option>
+                            <option value="UNIT_FOOT">Pies</option>
+                        </select>
+                </td>
+            </tr>
+          
+            <tr>                
+                <td colspan="2" style="padding-top: 10px">   
+                    <div style="display:flex; justify-content: center;">
+                        <button type="button" class="tool" id="point">Punto</button>                                                
+                     <!--   <button type="button" class="tool" id="line">Línea</button> -->
+                        <button type="button" class="tool" id="polyline">Línea</button>
+                        <button type="button" class="tool1" id="btnLimpiarBuffer" >Limpiar</button>
+                        <button type="button" class="tool1" id="resultadosBuffer" >Resultados</button>
+                    </div>      
+                </td>               
+            </tr>
+        </table>
+                
+       
+                                                      
+        </div>
+        
+    
+    <div id="divtTablaBuffer" style="width: 450px;">	
+        
+        <div id="divGridQueryAdvancedBuffer" style="border: inset; border-radius: 9px; width:450px; height:20em; @import '{{dataUrl}}dojox/grid/resources/claroGrid.css'">            
+		</div>	
+        <br />
+		<button id="botonRegresarBuffer" class="imgbtn daicon-open">Par&aacute;metros consulta</button>
+		<button id="btnExportarBuffer" onclick="Exportar()" class="imgbtn daicon-open">Exportar</button>
+		
+		        
+				
+		</div>
+</div>

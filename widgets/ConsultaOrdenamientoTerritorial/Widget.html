@@ -1,0 +1,66 @@
+<div>
+    <div id="divOpcionesConsultaOT" style="display: table-row;">
+        <table>
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+
+                    <label id="lblConsultaPorOT" class="tituloDDLOrdenamiento">Consulta por:</label>
+
+                </td>
+                <td>
+                    <select id="selConsultaPorOT" style="width: 200px; height:25px;" onchange="consultaPorOT_selectedChanged(this)">
+                        <option value="Seleccione...">Seleccione...</option>
+                        <option value="0">Normatividad de uso del suelo</option>
+                        <option value="1">Viviendas por estrato socioecon&oacute;mico</option>
+                        <option value="2">Clasificaci&oacute;n de uso del suelo</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+
+                    <label id="LabelMunicipio" class="tituloDDLOrdenamiento">Municipio: </label>
+
+                </td>
+                <td>
+                    <select id="selMunicipioOT" style="width: 200px; height:25px;" onchange="municipios_selectedChanged(this)">
+                        <option value="">Seleccione...</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+                    <label id="labelGeneral" class="tituloDDLOrdenamiento"> ""</label>
+                </td>
+                <td>
+                    <select id="selGeneral" style="width: 200px; height:25px;">
+                        <option value="">Seleccione...</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="form-row text-center">
+            <div class="col-12">
+                <button type="button" class="imgbtn daicon-open btnConsultaOrdenamientoTerritorial" id="btnLimpiarOT" onclick="limpiarOT()">Limpiar</button>
+                <button type="button" class="imgbtn daicon-open btnConsultaOrdenamientoTerritorial" id="Button1" onclick="consultaOT()">Buscar</button>
+            
+            </div>
+        </div>
+    </div>
+<div id="divResultadosConsultaOT" style="display: none;">
+
+		
+        <br />
+		<div id="botonesOT" class="form-row text-center">
+			
+            <label id="lblFeaturesOT" class="labelResultadoConsultaOT"> ""</label>
+            <br />
+
+		    <button type="button" class="imgbtn daicon-open btnConsultaSimple" id="botonRegresarConsultaOT"  onclick="volverConsultaOT()">Par&aacute;metros</button>
+		    <button type="button" class="imgbtn daicon-open btnConsultaSimple" id="btnFichaPDF" onclick="verInfoOT()" >Ver Ficha</button>
+				
+		
+		</div>
+	</div>
+</div>

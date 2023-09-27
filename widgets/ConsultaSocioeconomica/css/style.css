@@ -1,0 +1,73 @@
+.tituloDDLSocioeconomica {
+    width: 120px;
+    vertical-align: sub;
+    font-weight: bold;
+}
+
+.tdOpcionesSocioeconomica {
+    padding-bottom: 15px;
+}
+
+.claseSocioeconomica {
+    max-width: 350px;
+}
+
+
+.opcionDDLSocioeconomica {
+    width: 260px!important;
+    height: 25px!important;
+    ;
+    font-size: 13pX!important;
+    ;
+}
+
+#divGraficaConsultaSocioeconomica {
+    height: 355px;
+    width: 100%;
+}
+
+#divTablaConsultaSocioeconomica {
+    height: 240px;
+    width: 100%;
+}
+
+.graficaConsultaSocioeconomica {
+    width: 380px;
+    height: 330px;
+    margin: 0 0 0 0;
+    max-height: 330px;
+}
+
+.leyendaGraficaConsultaSocioeconomica {
+    width: 380px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#botonesTablaConsultaSocioeconomica{
+    padding-top: 10px;
+
+}
+  .imgbtn{
+    display:inline-block;
+    font-size: 11px!important;
+    padding:0.2em calc(50px + 1.2em) 0.2em 1.2em;
+    border-radius:38px;
+    position:relative;
+    background-color:#d2d2d2;
+    color:#333!important;
+    text-shadow:0 1px 1px rgba(0,0,0,.5);
+    box-shadow:0 3px 2px 0 rgba(0,0,0,.5);
+    margin:3px;
+    overflow:hidden;
+    background-size:cover;
+    background-repeat:no-repeat;background-position:center}@media (min-width:560px){.imgbtn{font-size:14px}}@media (min-width:768px){.imgbtn{font-size:16px}}.imgbtn::after,.imgbtn::before{position:absolute;right:0;top:0;bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;width:32px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.imgbtn::before{font-size:14px!important;z-index:5}@media (min-width:560px){.imgbtn::before{font-size:20px}}@media (min-width:768px){.imgbtn::before{font-size:22px}}.imgbtn::after{background-color:#8aa260;content:""}.imgbtn:active,.imgbtn:focus,.imgbtn:hover{text-decoration:none!important;color:#fff!important}.imgbtn--small{font-size:12px}.imgbtn--large{font-size:20px}.imgbtn--xlarge{font-size:20px;padding:1.2em 1.2em calc(50px + 1.2em)}.imgbtn--xlarge::after,.imgbtn--xlarge::before{height:50px;width:100%;bottom:0;top:auto}.imgbtn--amber,.imgbtn--cyan,.imgbtn--green,.imgbtn--indigo,.imgbtn--purple,.imgbtn--red,.imgbtn--teal{border-width:2px;border-style:solid}.imgbtn--cyan{background-color:#224851;border-color:#00BCD4}.imgbtn--red{background-color:#532f30;border-color:#f44336}.imgbtn--red::after{background-color:#F44336}.imgbtn--green{background-color:#3e4935;border-color:#8bc34a}.imgbtn--green::after{background-color:#8BC34A}.imgbtn--amber{background-color:#554927;border-color:#ffc107}.imgbtn--amber::after{background-color:#FFC107}.imgbtn--purple{background-color:#362d4b;border-color:#673AB7}.imgbtn--purple::after{background-color:#673AB7}.imgbtn--indigo{border-color:#3f51b5;background-color:#2e324a}.imgbtn--indigo::after{background-color:#3f51b5}.imgbtn--teal{border-color:#009688;background-color:#224041}.imgbtn--teal::after{background-color:#009688}@-webkit-keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,70%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}40%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}}@keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,70%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}40%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}}.imgbtn--shake:hover::before{-webkit-animation:shake 1s;animation:shake 1s}@-webkit-keyframes rubber{from,to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.5,1.25,1);transform:scale3d(.5,1.25,1)}50%{-webkit-transform:scale3d(1.2,.85,1);transform:scale3d(1.2,.85,1)}65%{-webkit-transform:scale3d(.9,1.05,1);transform:scale3d(.9,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}}@keyframes rubber{from,to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.5,1.25,1);transform:scale3d(.5,1.25,1)}50%{-webkit-transform:scale3d(1.2,.85,1);transform:scale3d(1.2,.85,1)}65%{-webkit-transform:scale3d(.9,1.05,1);transform:scale3d(.9,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}}.imgbtn--rubber:hover::before{-webkit-animation:rubber 1s;animation:rubber 1s}@-webkit-keyframes rotate{from{-webkit-transform-origin:center;transform-origin:center}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate3d(0,0,1,360deg);transform:rotate3d(0,0,1,360deg)}}@keyframes rotate{from{-webkit-transform-origin:center;transform-origin:center}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate3d(0,0,1,360deg);transform:rotate3d(0,0,1,360deg)}}.imgbtn--rotate:hover::before{-webkit-animation:rotate 1s;animation:rotate 1s}@-webkit-keyframes flip{from{-webkit-transform:rotate3d(0,1,0,-360deg);transform:rotate3d(0,1,0,-360deg)}40%{-webkit-transform:rotate3d(0,1,0,-190deg);transform:rotate3d(0,1,0,-190deg)}50%{-webkit-transform:rotate3d(0,1,0,-170deg);transform:rotate3d(0,1,0,-170deg)}to{-webkit-transform:rotate3d(0,1,0,0deg);transform:rotate3d(0,1,0,0deg)}}@keyframes flip{from{-webkit-transform:rotate3d(0,1,0,-360deg);transform:rotate3d(0,1,0,-360deg)}40%{-webkit-transform:rotate3d(0,1,0,-190deg);transform:rotate3d(0,1,0,-190deg)}50%{-webkit-transform:rotate3d(0,1,0,-170deg);transform:rotate3d(0,1,0,-170deg)}to{-webkit-transform:rotate3d(0,1,0,0deg);transform:rotate3d(0,1,0,0deg)}}.imgbtn--flip:hover::before{-webkit-backface-visibility:visible;backface-visibility:visible;-webkit-animation:flip 1s;animation:flip 1s}
+  .imgbtn[style]{font-weight:100}
+  
+  .imgbtn:hover{
+    color: #f1f1f1!important;
+    background-color: #5c6446;
+  } 
+  .imgbtn:focus {
+  outline:none;
+}

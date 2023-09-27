@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Beat the Clock!\" to=\"System requirements\" num=\"8\"/></cki>";

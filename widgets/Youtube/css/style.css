@@ -1,0 +1,20 @@
+.jimu-widget-BarraScala .barraEscalaSelect {
+    width: 115px!important;
+    display: inline!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+}
+.jimu-widget-BarraScala .divBarraEscala{
+    font-size: 10pt;
+    font-weight: bold;
+    background-image: linear-gradient(to right bottom, #064f13, #095716, #0d601a, #11681d, #157121);
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    
+}

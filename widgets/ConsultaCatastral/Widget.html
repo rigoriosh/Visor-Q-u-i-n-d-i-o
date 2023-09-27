@@ -1,0 +1,87 @@
+<div id="divTotal">
+    <!--  <div>This is my widget.</div>
+	 <div>This is configurable.[${config.configText}]</div>
+	<div data-dojo-attach-point="mapIdNode"></div>-->
+
+    <div id="consultarPredio">
+        <table>
+            <tr class="trConsultaCatastral">
+                <td>
+                    <label class="labelConsultaCatastral">Municipios:</label>
+                </td>
+                <td>
+                    <select id="selMunicipio" style="width: 210px; height:25px;" onchange="configureDropDownListsselMunicipio(this)">
+                        <option value="Seleccione...">Seleccione...</option>
+						<option value="0">Armenia</option>
+						<option value="1">Buenavista</option>
+						<option value="2">Calarcá</option>
+						<option value="3">Circasia</option>
+						<option value="4">Córdoba</option>
+						<option value="5">Filandia</option>
+						<option value="6">Génova</option>
+						<option value="7">Tebaida</option>
+						<option value="8">Montenegro</option>
+						<option value="9">Pijao</option>
+						<option value="10">Quimbaya</option>
+						<option value="11">Salento</option>
+					</select>
+                </td>
+            </tr>
+
+            <tr class="trConsultaCatastral">
+                <td>
+                    <label class="labelConsultaCatastral">Tipo:</label>
+                </td>
+                <td>
+                    <select id="selTipoSuelo" style="width: 210px; height:25px;">
+                        <option value="Seleccione...">Seleccione...</option>
+						<option value="01">Urbano</option>
+						<option value="00">Rural</option>
+
+					</select>
+                </td>
+            </tr>
+
+            <tr class="trConsultaCatastral">
+                <td colspan="2" style="    text-align: -webkit-center;">
+                    <input type="radio" class="radio radioBtnConsultaCatastral" name="x" value="vDigitos" onclick="radioChange()" id="vDigitos" checked/>
+                    <label for="vDigitos">15 Dígitos</label>
+
+                    <input type="radio" class="radio radioBtnConsultaCatastral" name="x" value="tDigitos" id="tDigitos" onclick="radioChange()" />
+                    <label for="tDigitos">25 Dígitos</label>
+                    <input type="radio" class="radio radioBtnConsultaCatastral" name="x" value="rmatricula" id="rmatricula" onclick="radioChange()" />
+                    <label for="lblmatricula">Matrícula inmobiliaria</label>
+                </td>
+            </tr>
+
+            <tr class="trConsultaCatastral">
+                <td>
+                    <label id="lblConsultaCatastral" class="labelConsultaCatastral">"" </label>
+                </td>
+                <td>
+                    <input type="number" id="inputNumPredial" style="width: 210px;" rows="1" cols="23" maxlength="15" onkeypress="return isNumberKey(event)" />
+
+                </td>
+            </tr>
+
+        </table>
+        <p id="nota">ejemplo Finlandia, Rural: 000000030325000</p>
+    </div>
+
+    <div id="divBuscarCatastral" class="form-row text-center">
+        <div class="col-12">
+
+            <button type="button" class="imgbtn daicon-open" id="btnLimpiarCatastral" style="padding-right: 38px;" onclick="LimpiarCatastral()">Limpiar</button>
+            <button type="button" class="imgbtn daicon-open" id="btnConsultaCatastral" style="padding-right: 38px;" onclick="buscarPredio()">Buscar</button>
+        </div>
+    </div>
+
+    <div id="divTablaConsultaCatastral" style="display: none; width: 550px;">
+        <div id="divTablaCc"></div>
+        <div id="botonesTablaConsultaCatastral" class="form-row text-center">
+            <button type="button" class="imgbtn daicon-open" id="botonRegresarConsultaCatastral" style="padding-right: 38px;" onclick="volverConsulta()">Par&aacute;metros consulta</button>
+            <button type="button" class="imgbtn daicon-open" id="btnExportarConsultaCatastral" style="padding-right: 38px;" onclick="test()">Exportar</button>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+<div id="wCA">
+    <div id="divOpcionesConsultaAgp" style="display: table-row;">
+        <table>
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+
+                    <label id="lblTipoAgropecuaria" class="tituloDDLOrdenamiento">Tipo:</label>
+
+                </td>
+                <td>
+                    <select id="selTipoAgropecuaria" style="width: 200px; height:25px;">
+                        <option value="Seleccione...">Seleccione...</option>
+                        <option value="0" name="Cultivos">Cultivos</option>
+                        <option value="1" name="">Especies </option>
+                        <option value="3" name="">Información Avicola </option>
+                        <option value="4" name="">Producción de leche </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+
+                    <label id="LabelMunicipioAgp" class="tituloDDLOrdenamiento">Municipio: </label>
+
+                </td>
+                <td>
+                    <select id="selMunicipioAgp" style="width: 200px; height:25px;" onchange="municipiosApg_selectedChanged(this)">
+                        <option value="">Seleccione...</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="trOpcionesOrdenamiento">
+                <td>
+                    <label id="labelAnioAgp" class="tituloDDLOrdenamiento">A&ntilde;o</label>
+                </td>
+                <td>
+                    <select id="selAnioAgp" style="width: 200px; height:25px;">
+                        <option value="">Seleccione...</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="form-row text-center">
+            <div class="col-12">
+                <button type="button" class="imgbtn daicon-open btnConsultaOrdenamientoTerritorial" id="btnLimpiarapg" onclick="limpiarAgp()">Limpiar</button>
+                <button type="button" class="imgbtn daicon-open btnConsultaOrdenamientoTerritorial" id="Button1" onclick="consultarApg()">Buscar</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="divResultadosConsultaAgp" style="display: none; flex-direction: column; align-items: center;">
+
+        <div id="graficaIndicadoresApg" style="text-align-last: center;"></div>
+        <br />
+        <div id="divTablaAgp" class="tablaApgCss" style="justify-content: center; text-align-last: center;"></div>
+
+
+        <br />
+        <div id="botonesOT" class="form-row text-center">
+
+
+            <br />
+
+            <button type="button" class="imgbtn daicon-open btnConsultaSimple" id="botonRegresarConsultaOT" onclick="volverParametrosConsultaAgp()">Par&aacute;metros</button>
+            <button type="button" class="imgbtn daicon-open btnConsultaSimple" id="btnExportarAgp" onclick="exportarAgp()">Exportar</button>
+
+
+        </div>
+    </div>
+</div>

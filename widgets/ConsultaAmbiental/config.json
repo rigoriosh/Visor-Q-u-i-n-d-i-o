@@ -1,0 +1,67 @@
+{
+  "serviceURL": "",
+  "defaultAuthor": "IGAC CIAF",
+  "defaultCopyright": "",
+  "tituloLeyendaPoblacion" : "Población Total",
+  "leyendaPoblacion": [
+    {
+        "colorFondo": "255,0,0,0.4",
+        "colorLine": "255,0,0,1",
+        "minimo": "0",
+        "maximo": "10000",
+        "label": "0 a 10.000"
+    },
+    {
+        "colorFondo": "0,0,255,0.4",
+        "colorLine": "0,0,255,1",
+        "minimo": "10001",
+        "maximo": "20000",
+        "label": "10.001 a 20.000"
+    },
+    {
+        "colorFondo": "255,255,0,0.4",
+        "colorLine": "255,255,0,1",
+        "minimo": "20001",
+        "maximo": "50000",
+        "label": "20.001 a 50.000"
+    },
+    {
+        "colorFondo": "51, 153, 51,0.4",
+        "colorLine": "51, 153, 51,1",
+        "minimo": "50001",
+        "maximo": "20000000",
+        "label": "Mayor a 50.000"
+    }
+],
+"tituloLeyendaNecesidades" : "NBI - Total Cve",
+"leyendaNecesidades": [
+  {
+      "colorFondo": "51, 153, 51,0.4",
+      "colorLine": "51, 153, 51,1",
+      "minimo": "0",
+      "maximo": "7.9",
+      "label": "Hasta el 7% Precisa"
+  },
+  {
+      "colorFondo": "0,0,255,0.4",
+      "colorLine": "0,0,255,1",
+      "minimo": "8",
+      "maximo": "14.9",
+      "label": "8 al 14 % Aceptable"
+  },
+  {
+      "colorFondo": "255,255,0,0.4",
+      "colorLine": "255,255,0,1",
+      "minimo": "15",
+      "maximo": "19.9",
+      "label": "15 al 20% Regular"
+  },
+  {
+      "colorFondo": "255,0,0,0.4",
+      "colorLine": "255,0,0,1",
+      "minimo": "20",
+      "maximo": "20000000",
+      "label": "Mayor al 20% Poco Precisa"
+  }
+]
+}

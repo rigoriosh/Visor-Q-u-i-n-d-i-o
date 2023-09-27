@@ -1,0 +1,13 @@
+#main-loading{
+	background-image: url('images/inicio.png');
+    background-position: center;
+	position:fixed;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+#main-loading #app-loading{
+	
+}
+#main-loading #loading-gif{
+
+}

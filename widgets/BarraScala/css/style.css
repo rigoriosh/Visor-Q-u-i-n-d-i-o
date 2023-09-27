@@ -1,0 +1,20 @@
+.barraEscalaSelect {
+    width: 100px!important;
+    display: inline!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+}
+.divBarraEscala{
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #8aa260;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    
+}

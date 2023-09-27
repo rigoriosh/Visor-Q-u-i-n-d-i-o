@@ -1,0 +1,109 @@
+
+    <table>
+           <tr>
+			  <td>
+				  <label>Tem&aacutetica: </label>
+			  </td>
+			  <td> 
+				  <select id = "selTematica" style="width: 200px;" onchange="if(this.selectedIndex >=0) configureDropDownListTematica(this)">
+				   <option value="0">Seleccione...</option>
+				   <option value = "http://172.17.3.142:6080/arcgis/rest/services/QUINDIO_III/Educacion/MapServer">EDUCACI&OacuteN</option>
+				   <option value = "http://172.17.3.142:6080/arcgis/rest/services/QUINDIO_III/Salud/MapServer">SALUD</option>
+				   <option value = "http://181.57.208.251/ArcGIS/rest/services/Quindio_Fase_II/CulturaTurismo_T/MapServer">CULTURA Y TURISMO</option>
+
+				  </select>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		   <tr>
+			  <td>
+				  <label id="grupoLabel">Consulta por: </label>
+			  </td>
+			  <td> 
+			     
+				  <select id = "selConsultaPor" style="width: 200px;" onchange="configureDropDownListConsultaPor(this)">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+		  
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		   <tr>
+			  <td>
+				  <label>Categor&iacutea: </label>
+			  </td>
+			  <td> 
+				  <select id = "selCategoria" style="width: 200px;"  onchange="configureDropDownListCampos(this)">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		   <tr>
+			  <td>
+				  <label id="subCategoriaLabel">Subcategor&iacutea: </label>
+			  </td>
+			  <td> 
+				  <select id = "selSubCategoria" style="width: 200px;"  onchange="configureDropDownListCampos(this)">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+	      <tr>
+			  <td><br /></td>
+		  </tr>
+	      <tr>
+			  <td>
+				  <label>Municipio: </label>
+			  </td>
+			  <td> 
+				  <select id = "selMunicipio" style="width: 200px;"  onchange="configureDropDownListCampos(this)">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+		  
+		   <tr>
+			  <td><br /></td>
+		  </tr>  
+		 <tr>
+			  <td>
+				  <label>Atributo: </label>
+			  </td>
+			  <td> 
+				  <select id = "selAtributo" style="width: 200px;"  onchange="configureDropDownListCampos(this)">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		  <tr align="right">
+		   
+		   <td align="right">
+		   
+		    <button type="button" id="btnLimpiar" onclick="limpiar()"  >Limpiar</button> 
+		   </td>
+		   <td align="center">
+		     <button type="button" id="btnBuscar" onclick="consultaSimple()"  >Buscar</button>
+		   
+		   </td>
+		  </tr>
+		  
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		
+    </table>

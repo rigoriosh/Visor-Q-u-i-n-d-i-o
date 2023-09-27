@@ -1,0 +1,43 @@
+<div class="tabladecontenido">
+	<div id="loader_2" class="justify-content-center loader2">
+		<div class="spinner-border" role="status">
+				<span class="sr-only">Loading...</span>
+		</div>
+</div>
+	<nav>
+		<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			<a class="nav-item nav-link active" id="tabla-contenido-tab" data-toggle="tab" href="#nav-tabla-contenido" role="tab" aria-controls="nav-home" aria-selected="true">Tabla de Contenidoooo</a>
+			<a class="nav-item nav-link" id="orden-capas-tab" data-toggle="tab" href="#nav-orden-capas" role="tab" aria-controls="nav-profile" aria-selected="false">Orden capas</a>
+		</div>
+	</nav>
+	<div class="tab-content" id="nav-tabContent">
+
+		<div class="tab-pane fade show active" id="nav-tabla-contenido" role="tabpanel" aria-labelledby="nav-home-tab">
+			
+			<div class="input-group col-md-4 divBuscar">
+				<input class="form-control py-2 border-right-0 border inputBuscar" type="search" id="buscarTOC" placeholder="Buscar capa" >
+				<span class="input-group-append">
+					<button id="btnBuscarCapa" class="btn btn-outline-secondary border-left-0 border btnBuscar" type="button">
+						<i class="fa fa-search"></i>
+					</button>
+					<button id="btnApagarCapas" class="btn btn-outline-secondary border btnBuscar" type="button">
+						<i class="fa fa-power-off"></i>
+					</button>
+				</span>
+
+			</div>
+			
+			<div id="divContenedorTOC" class="divcontenedorTOC">
+				<div id="JSTreeTOC" class="demo JSTreeTOC">
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="nav-orden-capas" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+			<div id="JSTreeOrdenCapas" class="demo JSTreeOrdenCapas">
+			</div>
+		</div>
+	</div>
+</div>
+
+

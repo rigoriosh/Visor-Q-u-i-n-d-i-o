@@ -1,0 +1,96 @@
+<div>
+	<div id="divOpcionesConsultaSocioeconomica" style="display: table-row;">
+		<table>
+			<tr>
+				<td class="tdOpcionesSocioeconomica">
+
+					<label id="lblConsultaPor" class="tituloDDLSocioeconomica">Consulta por:</label>
+
+				</td>
+				<td class="tdOpcionesSocioeconomica">
+					<select id="selConsultaSocioeconomica" class=" opcionDDLSocioeconomica">
+						<option value="-1">Seleccione...</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr id="opcionTipoDesplazado">
+
+				<td class="tdOpcionesSocioeconomica">
+					<label id="lblTipoDesplazaldo" class="tituloDDLSocioeconomica">Tipo Desplazado: </label>
+				</td>
+				<td class="tdOpcionesSocioeconomica">
+					<select id="selTipoDesplazadoSocioeconomica" class="opcionDDLSocioeconomica" disabled>
+						<option value="-1">Seleccione...</option>
+						<option value="3">Expulsor</option>
+						<option value="6">Receptor</option>
+					</select>
+				</td>
+
+			</tr>
+
+			<tr id="opcionTipoIndicador">
+				<td class="tdOpcionesSocioeconomica">
+
+					<label id="lblTipoIndicador" class="tituloDDLSocioeconomica">Tipo Indicador: </label>
+
+				</td>
+				<td class="tdOpcionesSocioeconomica">
+					<select id="selTipoIndicadorSocioeconomica" class=" opcionDDLSocioeconomica" disabled>
+						<option value="-1">Seleccione...</option>
+						<option value="0">Índice de desnutrición</option>
+
+					</select>
+				</td>
+			</tr>
+			<tr id="opcionTipoServicio">
+				<td class="tdOpcionesSocioeconomica">
+
+					<label id="lblTipoServicio" class="tituloDDLSocioeconomica">Tipo Servicio: </label>
+
+				</td>
+				<td class="tdOpcionesSocioeconomica">
+					<select id="selTipoServicioSocioeconomica" class=" opcionDDLSocioeconomica" disabled>
+						<option value="-1">Seleccione...</option>
+
+					</select>
+				</td>
+			</tr>
+			<tr id="opcionAnio">
+				<td class="tdOpcionesSocioeconomica">
+
+					<label id="lblAnio" class="tituloDDLSocioeconomica">A&ntilde;o</label>
+
+				</td>
+				<td class="tdOpcionesSocioeconomica">
+					<select id="selAnioSocioeconomica" class=" opcionDDLSocioeconomica" disabled>
+						<option value="-1">Seleccione...</option>
+					</select>
+				</td>
+			</tr>
+
+		</table>
+
+		<div id="botonesWidget" style="text-align: -webkit-center;">
+			<button type="button" class="imgbtn daicon-open" id="btnLimpiarSocioeconomica">Limpiar</button>
+			<button type="button" class="imgbtn daicon-open"  id="btnBuscarSocioeconomica" disabled>Buscar</button>
+		</div>
+	</div>
+
+	<div id="divTablaGraficaConsultaSocioeconomica" style="display: none;">
+		<div id="divGraficaConsultaSocioeconomica">
+			<div id="graficaConsultaSocioeconomica" class="graficaConsulta"></div>
+			<div id="leyendaGraficaConsultaSocioeconomica" class="leyendaGraficaConsulta"></div>
+		</div>
+		<div id="tituloTablaConsulta" style="display: none;"></div>
+		<div id="divTablaConsultaSocioeconomica">
+		</div>
+		<div id="botonesTablaConsultaSocioeconomica"  class="form-row text-center">
+				<button type="button" class="imgbtn daicon-open" style="padding-right: 33px;" id="btnGraficaAnteriorSocioeconomica" >Ant.</button>
+				<button type="button" class="imgbtn daicon-open" style="padding-right: 34px;" id="btnLimpiarConsultaSocioeconomica" >Limpiar</button>
+				<button type="button" class="imgbtn daicon-open" style="padding-right: 34px;" id="btnRegresarComsultaSocioeconomica" style="visibility: hidden" >Par&aacute;metros</button>
+				<button type="button" class="imgbtn daicon-open"  style="padding-right: 34px;"id="btnExportarSocioeconomica" >Exportar</button>
+				<button type="button" class="imgbtn daicon-open"  style="padding-right: 33px;" id="btnGraficaSiguienteSocioeconomica">Sig.</button>
+		</div>
+	</div>
+</div>

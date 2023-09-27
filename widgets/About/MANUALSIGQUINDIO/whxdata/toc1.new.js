@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"OBJETIVOS ESPECÍFICOS","url":"SIG_QUINDIO_MUW_V_1.0_09082018.htm#OBJETIVOS_ESPEC_FICOSbc-1"},{"type":"book","name":"1. HERRAMIENTA TABLA DE CONTENIDO","key":"toc2","url":"SIG_QUINDIO_MUW_V_1.0_09082018.htm#1_HERRAMIENTA_TABLA_DEbc-2"},{"type":"book","name":"2. HERRAMIENTAS DE NAVEGACIÓN Y VISUALIZACIÓN","key":"toc3","url":"SIG_QUINDIO_MUW_V_1.0_09082018.htm#2_HERRAMIENTAS_DEbc-20"},{"type":"book","name":"3. HERRAMIENTAS ESPACIALES","key":"toc4","url":"SIG_QUINDIO_MUW_V_1.0_09082018.htm#3_HERRAMIENTAS_ESPACIALESbc-32"},{"type":"book","name":"4. HERRAMIENTAS DE CONSULTA","key":"toc5","url":"SIG_QUINDIO_MUW_V_1.0_09082018.htm#4_HERRAMIENTAS_DEbc-56"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

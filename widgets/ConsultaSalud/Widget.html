@@ -1,0 +1,195 @@
+<div>
+	<div id="imgExpan" onclick="imagenClickCS()"></div>
+	<div id="widgetCS">
+		<table style="margin-top: -10px">
+			<tr>
+				<td>
+						<label id="labelConsultaPorCS" class="tituloCStematica" >Consulta por:</label>
+				</td>					
+				<td >
+						<select id="selectConsultaPorCS" class = "selectCS"></select>
+				</td>					
+			</tr>
+		</table>
+		
+		</div>
+
+	<div id="divConsGeneSaludCS" style="margin-top: 5px">			
+			<table>			
+				<tr>
+					<td>
+						<label class="tituloCSgeneral" style="margin-right: 24px">Categoría:</label>
+					</td>
+					<td>
+						<select id="selectCategoriaCS"class = "selectCS"></select>
+					</td>
+				</tr>			
+				<tr>
+					<td>
+						<label class="tituloCSgeneral" class="tituloCS">Municipio:</label>
+					</td>
+					<td>
+						<select id="selectMunicipioCS" class = "selectCS"></select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="tituloCSgeneral" class="tituloCS">Atributo:</label>
+					</td>
+					<td>
+						<select id="selectAtributoCS" class = "selectCS"></select>
+					</td>
+				</tr>
+			</table>		
+		</div>
+	
+	<div id="p1CS" style="display: none; text-align: center; color: red; margin-bottom: 0px">
+			<p style="margin-bottom: 0px">No existe un atributo asociado al municipio y a la categoria seleccionada</p>
+		</div>
+
+	<div id="divIndicadoresCS">
+		<table>
+			<tr>
+				<td>
+					<label class="tituloCSIndicadores" style="margin-right: 25px;">Indicador:</label>
+				</td>
+				<td>
+					<select id="selectIndicadorCS" class = "selectCS"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCSIndicadores" class="tituloCS">Categoría:</label>
+				</td>
+				<td>
+					<select id="selectCategoriaIndicadorCS" class = "selectCS"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCSIndicadores" class="tituloCS">Año:</label>
+				</td>
+				<td>
+					<select id="selectAnnioIndicadorCS" class = "selectCS"></select>
+				</td>
+			</tr>
+		</table>
+		</div>
+
+	<div id="divConsPorTematicaCS" style="margin-left: -11px; margin-top: 11px">
+		<tr>
+			<td>
+				<label class="tituloCStematica">Temática:</label>
+			</td>
+			<td>
+				<select id="selectTematicaCT" class = "selectCSTematica"></select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label class="tituloCStematica">Municipio:</label>
+			</td>
+			<td>
+				<select id="selectMunicipioCS1" class = "selectCSTematica"></select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label class="tituloCStematica">Rango de edad:</label>
+			</td>
+			<td>
+				<select id="selectRangoEdadCS1" class = "selectCSTematica"></select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label class="tituloCStematica">Año:</label>
+			</td>
+			<td>
+				<select id="selectAnnioCS1" class = "selectCSTematica"></select>
+			</td>
+		</tr>
+	</div>
+    <div style="display: flex; justify-content: center">
+        <a id="limpiarCS" class="imgbtn daicon-open" style="margin-right: 5px; width: 93px; margin-top: 10px">Limpiar</a>
+	    <a id="buscarCS" class="imgbtn daicon-open" style="width: 93px; margin-top: 10px">Buscar</a>	
+	    <a id="btnResultadosCS" class="imgbtn daicon-open" style="display: none; width: 117px; margin-top: 10px">Resultados</a>	
+    </div>
+	<div id="divtTablaCS" style="display: none; margin: -8px -11px -14px -5px; margin-bottom: 0px" class="resultados">				
+		<link href="//cdn.rawgit.com/Zero20659/zerohost/master/dist/fonts/daicons-buttons/style.css" rel="stylesheet"/>		
+		<div id="idResultadosCS" style="display: none;" class="resultados">
+				
+			<div id="form1CS" class="formularioCS" style="display: none">
+				<table id="tabla1CS" style="width: 390px">
+					<tr>
+						<td><label class="tituloCS2">Nombre:</label></td>
+						<td><p id="NOMBREEQUIPAMIENTOCS" class="resultadosCS"></p></td>
+						<td>
+							<div id="imgCS" onclick="imagenClickCS()"></div>							
+
+						</td>
+					</tr>
+					<tr>
+						<td><label class="tituloCS2">Dirección:</label></td>
+						<td><p id="DIRECCIONCS" class="resultadosCS"></p></td>
+					</tr>
+					<tr>
+						<td><label class="tituloCS2">Teléfono:</label></td>
+						<td><p id="TELEFONOCS" class="resultadosCS"></p></td>
+					</tr>
+					<tr>
+						<td><label class="tituloCS2">Sitio Web:</label></td>
+						<td><p id="SITIOWEBCS" class="resultadosCS"></p></td>
+					</tr>
+				</table>																									
+			</div>
+
+			<div id="form2CS" class="formularioCS" style="display: none; margin-top: 3em">
+				<table>
+						<tr>
+							<td><label class="tituloCS1">Persona contacto:</label></td>
+							<td><p id="GERENTECS" class="resultadosCS"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCS1">Nit:</label></td>
+							<td><p id="NITCS" class="resultadosCS"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCS1">Horario:</label></td>
+							<td><p id="HORARIOSCS" class="resultadosCS"></p></td>
+						</tr>						
+				</table>								
+			</div>	
+
+		</div>
+		<div id="graficaIndicadores" ></div>
+		<div id="leyendaGraficaConsultaCS" class="leyendaGraficaConsulta"></div>
+		
+		<div id="divtitleIndicadores"><p id="titleIndicadores" style="text-align: center; margin-bottom: 2px; margin-top: 6px; margin-left: 14px; width: 256px"></p></div>
+		<div id="tablaIndicadores" class="tablaCS"></div>		
+
+				
+		
+						
+		<div id="form5CS" style="display: none; margin-top: 13px">
+				<select id="selectServiciosCS" class = "selectCS" size="1" style="width: 330px"></select>
+		</div>
+		
+		<div id="form4CS" style="width:347px; height:23em; @import '{{dataUrl}}dojox/grid/resources/claroGrid.css'">									
+		</div>
+	</div>
+	<p id="pCapaciInstalada" style="display: none; color: red; margin-top: 14px">"Sin información"</p>
+	<div id="btnsCS" style="display: none; flex-direction: row; justify-content: center;">
+		<div id="divBtns1CS" style="display: flex; margin-top: 6px">
+			<div><a id="botonRegresarCS" class="imgbtn daicon-open" style="display: none; margin-right: 10px">Parámetros</a>	</div>
+			<div><a id="btnVerMasCS" class="imgbtn daicon-open" title="Ver más" style="display: none;">Ver más</a>		</div>
+		</div>
+		<div><a id="botonexportarCS" class="imgbtn daicon-open" onclick="ExportarCS()" style="width: 105px; display: none; margin-right: 6px; margin-left: 3px; margin-top: 6px">Exportar</a></div>
+		<div><a id="botonSiguienteCS" class="imgbtn daicon-open" style="display: none;">Siguiente</a></div>
+		<div id="divBtns2CS" style="display: flex; margin-top: 6px">
+			<div><a id="btnCapaciadInstCS" class="imgbtn daicon-open" title="Capacidad instalada" style="width: 198px; display: none;">Capacidad instalada</a></div>
+			<div><a id="btnServiciosCS" class="imgbtn daicon-open" title="Servicios" style="width: 110px; display: none;">Servicios</a></div>
+		</div>			
+	</div>		
+</div>
+

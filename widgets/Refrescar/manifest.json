@@ -1,0 +1,24 @@
+{
+  "name": "Refrescar",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.1",
+  "wabVersion": "0.1",
+  "author": "IGAC (carlos.corzo)",
+  "description": "Widget para refrescar el mapa",
+  "copyright": "",
+  "license": "",
+  "properties": {
+		"inPanel":false,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":false,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":false,
+		"hasSettingStyle":false,
+		"IsController":false
+  }
+}

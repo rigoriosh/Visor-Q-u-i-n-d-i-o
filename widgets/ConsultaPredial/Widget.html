@@ -1,0 +1,60 @@
+<div id="divTotal">
+	<div id="consultarPredio">
+		<table>
+			<tr class="trConsultaCatastral">
+				<td>
+					<label class="labelConsultaCatastral">A&ntilde;o:</label>
+				</td>
+				<td>
+					<select id="selAnioConPredial" style="width: 220px;">
+					</select>
+				</td>
+			</tr>
+
+			<tr class="trConsultaCatastral">
+				<td>
+					<label class="labelConsultaCatastral">Clase de Suelo:</label>
+				</td>
+				<td>
+					<select id="selTipoSueloConPredial" style="width: 220px;">
+						<option value="capa_urbano">Urbano</option>
+						<option value="capa_rural">Rural</option>
+
+					</select>
+				</td>
+			</tr>
+
+			<tr class="trConsultaCatastral">
+				<td colspan="2" style="    text-align: -webkit-center;">
+					<form id="formDigitosPredial">
+						<input type="radio" class="radio radioBtnConsultaCatastral" name="x" value="vDigitos" onclick="radioChange()" id="vDigitos"
+						 />
+						<label for="vDigitos">20 Dígitos</label>
+
+						<input type="radio" class="radio radioBtnConsultaCatastral" name="x" value="tDigitos" id="tDigitos" onclick="radioChange()"
+						checked/>
+						<label for="tDigitos">30 Dígitos</label>
+					</form>
+				</td>
+			</tr>
+
+			<tr class="trConsultaCatastral">
+				<td>
+					<label for="numPredial" class="labelConsultaCatastral">Número predial: </label>
+				</td>
+				<td>
+					<input type="text" id="inputNumPredial" style="width: 220px;" rows="1" cols="23" maxlength="30" onkeypress="return isNumberKey(event)"
+					autocomplete="off" />
+
+				</td>
+			</tr>
+
+		</table>
+	</div>
+
+	<div id="divBuscarCatastral" class="form-row text-center">
+		<div class="col-12">
+			<button type="button" class="btn btn-sm btn-secondary btnConsultaCatastral" id="btnConsultaCatastral" onclick="buscarPredio()">Consultar</button>
+		</div>
+	</div>
+</div>

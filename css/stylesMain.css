@@ -1,0 +1,404 @@
+/* :root{
+    --main-bg-color-1: #ef4f06f0;
+    --blue1: #004884 ;
+    --warning: red;
+}
+
+p{
+    margin: 0 !important;
+}
+
+.loading {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(247, 241, 241, 0.53);
+    width: 100%;
+    height: 100%;
+    font-size: initial;
+}
+
+.loader{
+    position: absolute;
+    background-color: #0000001c;
+    width: 100%;    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+} */
+
+.loader2{
+    align-items: center;
+    background-color: #0000001f;
+    display: none;
+    height: inherit;
+    margin-top: 6px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+/* 
+.titulo{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btnSerie{
+    display: flex;
+    justify-content: space-around;
+}
+
+.labels{
+    padding-top: 5px;
+    color: black;
+}
+
+.btns{
+    align-self: center;
+    border-style: double;
+    background-color: var(--main-bg-color-1);
+    border-color: white;
+    cursor: pointer;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: initial;
+    font-weight: bold;
+    margin: 5px 0px;
+    width: 50%;
+}
+
+.warning{
+    color: coral;
+    display: none;
+}
+
+#idDivTabla {
+    height: 10em;
+  }
+
+.campoRequerido{
+    color: var(--warning);
+}
+
+select{
+    width: 100%;
+}
+
+.icon-item-background0{
+    background-color: var(--main-bg-color-1) !important;
+}
+
+#mainIndicadores{
+    height: 400px;
+}
+
+.ml-3rem{
+    margin-left: 3rem !important;
+}
+
+.bg-g{
+    background-color: gray;
+}
+
+.mySpan1{
+    display: flex;
+    align-self: center;
+    background-color: var(--blue1);
+    height: 100%;
+    justify-content: center;
+    width: 5%;
+    font-size: large;
+    color: antiquewhite;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.br-ml{
+    border-radius: 15px;
+    margin-left: 2px;
+}
+
+.btn-outline-success:hover{
+    background-color: var(--blue1) !important;
+    border-color: var(--blue1) !important;
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: var(--blue1) !important;
+    border-color: var(--blue1) !important;
+}
+
+.fila{
+    align-items: center !important;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child) {
+    border-radius: 10px !important;
+}
+.input-group .form-control:not(:first-child), .input-group-addon:not(:first-child), .input-group-btn:not(:first-child)>.btn, .input-group-btn:not(:first-child)>.btn-group>.btn, .input-group-btn:not(:first-child)>.dropdown-toggle, .input-group-btn:not(:last-child)>.btn-group:not(:first-child)>.btn, .input-group-btn:not(:last-child)>.btn:not(:first-child) {
+    border-radius: 10px !important;
+}
+
+.containerCIAF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnSmall{
+    border-color: var(--blue1);
+    border-radius: 10px;
+    border: 1px;
+    color: var(--blue1);
+    margin-top: 1px;
+    width: 3rem !important;
+    font-weight: bold;
+}
+
+.btnSmall:hover{
+    background-color: var(--blue1);
+    border-color: var(--blue1);
+    border: 1px;
+    color: white;
+} 
+
+.fz-15{
+    font-size: 15px;
+}
+
+.jimu-widget-onscreen-icon{
+    background-color: var(--main-bg-color-1) !important;
+}
+.jimu-widget-onscreen-icon:hover{
+    background-color: var(--blue1) !important;
+}
+
+.icon-item-background0, .icon-item-background1, .icon-item-background2, .icon-item-background3, .icon-item-background4{
+    background-color: var(--main-bg-color-1) !important;
+}
+
+.icon-item-background0:hover, .icon-item-background1:hover, .icon-item-background2:hover, .icon-item-background3:hover, .icon-item-background4:hover{
+    background-color: var(--blue1) !important;
+}
+
+.icon-item-background5{
+    background-color: var(--blue1) !important;
+}
+
+.color-header .icon-item-background0{
+    background-color: var(--blue1) !important;
+}
+
+.jimu-anchorbar-controller-group .title-label {
+    overflow: initial !important;
+    right: 70px !important;
+    font-size: 11px;
+}
+
+.btnRound{
+    height: 17px;
+    width: 10px;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+
+.divColum {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+.modal-backdrop{
+    z-index: 100 !important;
+}
+
+.fade.show {
+    background-color: #0000001a !important;
+    
+}
+
+#dijit_Menu_0{
+    border-radius: 10px;
+}
+
+.columnaCA{
+    width: 100%;
+    text-align: initial;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputInRow{
+    margin-left: 5px;
+    width: 80% !important;
+}
+
+.mt5px{
+    margin-top: 5px;
+}
+
+.claro .jimu-launchpad-panel .jimu-panel-content {
+    top: 10px !important;
+}
+
+.jimu-panel-content{
+    margin-top: 7px;
+}    
+
+.img{
+    width: 100%;
+    background-image: url('../images/attributesToSelect.PNG');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#widgets_AddAtributes_Widget_43{
+    height: 100%;
+}
+
+#attributesToSelect{
+    display: none;
+    flex-direction: column;
+    height: 100%;
+}
+
+.classHeader{
+    font-weight: bold;
+}
+.x{
+    margin-bottom: 1px;
+}
+.hilera{
+    margin-top: 5px;
+}
+.celda{
+    justify-content: center;
+    padding-left: 4px;
+    font-size: 10px;
+}
+
+.celdaCheck{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border: none;
+    border-bottom: solid 1px gray;
+}
+.celdaHeader{
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+#TablaSelectAtributes{
+    overflow: scroll;
+}
+
+.jimu-nav-mode *:focus {
+    outline: none !important;
+}
+
+.btns-container{
+    z-index: 9999;
+}
+#widgets_AddData_Widget_38{
+    margin-top: 10px;
+}
+#widgets_ConsultaAvanzada_Widget_36{
+    margin-top: 10px;
+}
+#dijit__WidgetBase_16{
+    margin-top: 10px;
+}
+#dijit__WidgetBase_6{
+    margin-top: 10px;
+}
+
+#ModalConfirmacion {
+    display: block;
+    background: #80808082;
+    margin-top: 54px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 99999999 !important;
+}
+#ModalConfirmacionDelete{
+    display: block;
+    background: #80808082;
+    margin-top: 54px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 99999999 !important;
+}
+#msgConfirmacion{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 21px;
+    color: #16168c;
+}
+#divBtnsModal{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 21px;
+}
+
+.claro .dgrid {
+    height: 100% !important;
+}
+
+.esri-feature-table-column-header-title {
+    font-size: 10px;
+}
+
+.esri-feature-table .dgrid-row .dgrid-cell {
+    overflow: scroll;
+    font-size: 10px;
+    height: 20px !important;
+}
+
+.dgrid-cell.dgrid-cell-padding.dgrid-column-22 div{
+    height: 30px !important;
+    overflow-y: scroll !important;
+}
+
+
+.fieldIT{
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 5px;
+    width: 50%;
+    overflow: auto;
+    background-color: #8080802b;
+}
+
+.ITdata{
+    font-size: 10px;
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    padding-left: 5px;
+    background-color: #8080802b;
+}
+.divIT{
+    display: flex;
+    border-bottom: 3px solid #0c0c0c30;
+    align-items: center;
+    height: 30px;
+} */

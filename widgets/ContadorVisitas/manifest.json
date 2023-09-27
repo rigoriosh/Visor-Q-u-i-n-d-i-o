@@ -1,0 +1,15 @@
+{
+  "name": "BarraScala",  
+  "platform": "HTML",
+  "version": "0.1",
+  "wabVersion": "2.5",
+  "author": "RRH",
+  "description": "This is the BarraDeEscala widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasUIFile": true,
+    "supportMultiInstance": false
+  }
+}

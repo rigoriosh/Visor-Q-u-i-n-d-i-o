@@ -1,0 +1,2446 @@
+﻿/* Style Sheet created by ImportDoc 13.0 */
+
+p {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"    ,sans-serif;
+}
+
+h1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-18.0pt;
+	background:#E0E0E0;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:9.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+h2 {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:11.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+h3 {
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:36.0pt;
+	text-align:left;
+	text-indent:-36.0pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:11.0pt;
+	font-family:"Calibri Light"   ,sans-serif;
+	font-weight:bold;
+}
+
+h4 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:43.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-43.2pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+h5 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:50.4pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-50.4pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:normal;
+}
+
+h6 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:57.6pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-57.6pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"BauerBodni BT"   ,serif;
+	font-weight:normal;
+}
+
+p.Título7Título1111 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:64.8pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-64.8pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial Rounded MT Bold"   ,sans-serif;
+	color:gray;
+}
+
+p.Heading8 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-72.0pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Century Gothic"   ,sans-serif;
+}
+
+p.Heading9 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:79.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-79.2pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Eras Demi ITC"   ,sans-serif;
+}
+
+p.Index1 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:11.0pt;
+	text-align:justify;
+	text-indent:-11.0pt;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Toc1 {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.Toc2 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:11.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:11.0pt;
+	font-family:"Calibri Light"   ,sans-serif;
+	font-variant:small-caps;
+}
+
+p.Toc3 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:22.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+	font-style:italic;
+}
+
+p.Toc4 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:22.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.Toc5 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:33.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.Toc6 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:44.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.Toc7 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:55.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.Toc8 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:66.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.Toc9 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:77.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+p.FootnoteText {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.CommentText {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.EncabezadoEntêtepair {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Verdana"   ,sans-serif;
+}
+
+p.Footer {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Verdana"   ,sans-serif;
+}
+
+p.Caption {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:9.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#4F81BD;
+	font-weight:bold;
+}
+
+p.TabladeilustracionesTabladeFiguras {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Calibri"   ,sans-serif;
+	font-style:italic;
+}
+
+span.FootnoteReference {
+	font-family:"Times New Roman"   ,serif;
+	vertical-align:super;
+}
+
+span.PageNumber {
+	font-family:"Times New Roman"   ,serif;
+}
+
+span.EndnoteReference {
+	vertical-align:super;
+}
+
+p.EndnoteText {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.List {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.ListBullet {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.PuestoTítuloTablasfiguras {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+p.TextoindependientebodytextInicio {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.BodyTextIndent {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:1.0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Subtitle {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:12.0pt;
+	font-family:"Cambria"   ,serif;
+}
+
+p.BodyText2 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.BodyText3 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:8.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.BodyTextIndent2 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	text-align:left;
+	line-height:200%;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.BodyTextIndent3 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	text-align:left;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+span.Hyperlink {
+	font-family:"Times New Roman"   ,serif;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;
+}
+
+span.HyperlinkFollowed {
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;
+}
+
+p.DocumentMap {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:8.0pt;
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+p.PlainText {
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.CommentSubject {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.Acetate {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:8.0pt;
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+span.PlaceholderText {
+	color:gray;
+}
+
+p.NoSpacing {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.6pt;
+	text-align:justify;
+	text-indent:-21.6pt;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	layout-grid-mode:line;
+}
+
+p.RMPane {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.ListParagraph {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.ListParagraphCxSpFirst {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.ListParagraphCxSpMiddle {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.ListParagraphCxSpLast {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Quote {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:115%;
+	font-size:9.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+}
+
+p.IntenseQuote {
+	margin-top:10.0pt;
+	margin-right:46.8pt;
+	margin-bottom:14.0pt;
+	margin-left:46.8pt;
+	text-align:left;
+	line-height:115%;
+	border:none;
+	padding:0cm;
+	font-size:11.0pt;
+	font-family:"Lucida Sans Unicode"   ,sans-serif;
+	color:#0F6FC6;
+	font-weight:bold;
+	font-style:italic;
+}
+
+span.SubtleEmphasis {
+	color:gray;
+	font-style:italic;
+}
+
+span.IntenseEmphasis {
+	color:#0F6FC6;
+	font-weight:bold;
+	font-style:italic;
+}
+
+span.SubtleReference {
+	font-variant:small-caps;
+	color:#009DD9;
+	text-decoration:underline;
+	text-underline:single;
+}
+
+span.IntenseReference {
+	font-variant:small-caps;
+	color:#009DD9;
+	letter-spacing:.25pt;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;
+}
+
+span.BookTitle {
+	font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-weight:bold;
+}
+
+p.Bibliography {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.TocHeading {
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Cambria"   ,serif;
+	color:#365F91;
+	font-weight:bold;
+}
+
+span.Título1Carh1CarMT1Cartítulo1CarNombreProyectoCarChapitreCarTítulo1CarCarCarCarCarCarCarCarCarCarCarCarCarCarCar {
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	background:#E0E0E0;
+	font-weight:bold;
+}
+
+span.Título2Carh2Carheaderlevel2CarMT2Cartítulo2Car {
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+span.Título3CarH3Carh3Car {
+	font-family:"Calibri Light"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.Título4Car {
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.Título5CarTitulo11Car {
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.Título6CarTítulo111Car {
+	font-family:"BauerBodni BT"   ,serif;
+}
+
+span.Título7CarTítulo1111Car {
+	font-family:"Arial Rounded MT Bold"   ,sans-serif;
+	color:gray;
+}
+
+span.Título8Car {
+	font-family:"Century Gothic"   ,sans-serif;
+}
+
+span.Título9Car {
+	font-family:"Eras Demi ITC"   ,sans-serif;
+}
+
+p.subtitulo {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:31.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-31.2pt;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.TextodegloboCar {
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+span.EncabezadoCarEntêtepairCar {
+	font-family:"Verdana"   ,sans-serif;
+}
+
+span.PiedepáginaCar {
+	font-family:"Verdana"   ,sans-serif;
+}
+
+span.TextoindependienteCarbodytextCarInicioCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.parrafo {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Helvetica Neue CE 55 Roman";
+	color:black;
+}
+
+span.parrafoCar {
+	font-family:"Helvetica Neue CE 55 Roman";
+	color:black;
+}
+
+p.style2 {
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+	color:#03499E;
+	font-weight:bold;
+}
+
+span.style61 {
+	font-family:"Times New Roman"   ,serif;
+	font-style:italic;
+}
+
+span.default1 {
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	text-decoration:none;
+	text-underline:none;
+}
+
+span.WW8Num7z2 {
+	font-family:Wingdings;
+}
+
+p.Figura {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:39.15pt;
+	text-align:center;
+	text-indent:-39.15pt;
+	font-size:10.0pt;
+	font-family:"Tahoma"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.Titulo2AD {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.15pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	text-indent:-39.15pt;
+	font-size:12.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-variant:small-caps;
+	color:black;
+	font-weight:bold;
+}
+
+p.EstiloTITULOAIzquierda {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.TextoDescripcion {
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:2.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:12.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+}
+
+span.MapadeldocumentoCar {
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+span.TextonotapieCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Estilo1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:86.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:11.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:11.5pt;
+	text-align:left;
+	line-height:10.8pt;
+	font-size:9.0pt;
+	font-family:"Verdana"   ,sans-serif;
+	color:black;
+}
+
+p.Estilo2 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:11.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.Estilo3 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:86.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:11.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.Epígrafe1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:9.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#4F81BD;
+	font-weight:bold;
+}
+
+span.TextocomentarioCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.AsuntodelcomentarioCar {
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.CitaCar {
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+}
+
+p.Párrafodelista1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	text-align:left;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Lucida Sans Unicode"   ,sans-serif;
+}
+
+p.TítulodeTDC1 {
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Cambria"   ,serif;
+	color:#365F91;
+	font-weight:bold;
+}
+
+span.SubtítuloCar {
+	font-family:"Cambria"   ,serif;
+}
+
+span.HTMLconformatoprevioCar {
+	font-family:"Courier New";
+	color:black;
+}
+
+p.List0 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.Cuerpodetexto {
+	margin-top:0cm;
+	margin-right:-.05pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:1.0cm;
+	line-height:120%;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+}
+
+span.CuerpodetextoCar1 {
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+}
+
+span.PárrafodelistaCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Cuerpodetextoprimerparrafo {
+	margin-top:0cm;
+	margin-right:-.05pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+	color:#006F3B;
+}
+
+span.CuerpodetextoprimerparrafoCar {
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+	color:#006F3B;
+}
+
+p.Tituloprimernivel {
+	margin-top:24.0pt;
+	margin-right:-.05pt;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:115%;
+	font-size:18.0pt;
+	font-family:"Helvetica"   ,sans-serif;
+	color:#0B5294;
+	font-weight:bold;
+}
+
+span.TituloprimernivelCar {
+	font-family:"Arial"   ,sans-serif;
+	color:#0B5294;
+	font-weight:bold;
+}
+
+p.Default {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+}
+
+p.Estilocatatumbo {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:2.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	background:#A8D08D;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:12.0pt;
+	font-family:"Calibri Light"   ,sans-serif;
+	color:black;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+span.EstilocatatumboCar {
+	font-family:"Calibri Light"   ,sans-serif;
+	color:black;
+	text-transform:uppercase;
+	background:#A8D08D;
+	font-weight:bold;
+}
+
+p.Catatumbo {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:13pt;
+	font-family:"Calibri Light"   ,sans-serif;
+}
+
+span.TabladeilustracionesCarTabladeFigurasCar {
+	font-family:"Times New Roman"   ,serif;
+	font-style:italic;
+}
+
+span.CatatumboCar {
+	font-family:"Calibri Light"   ,sans-serif;
+	font-style:normal;
+}
+
+span.TextonotaalfinalCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.PuestoCarTítuloTablasfigurasCar {
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+p.infoblue {
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.EstiloTituloPrinciplaIzquierdaSuperiorSencilloAutomático {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:left;
+	border:none;
+	padding:0cm;
+	font-size:18.0pt;
+	font-family:"Verdana"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.TituloPrincipla {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.WW8Num2z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num1z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num2z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num2z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num3z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num5z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num6z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num6z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num6z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num7z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num7z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num7z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num8z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num8z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num8z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num10z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num11z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num11z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num11z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num11z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num12z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num12z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num12z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num12z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num13z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num13z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num13z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num14z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num17z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num17z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num17z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num20z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num20z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num20z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num21z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num21z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num21z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num22z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num22z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num22z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num23z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num23z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num23z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num23z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num24z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num25z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num25z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num25z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num25z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num26z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num27z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num27z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num27z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num28z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num29z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num29z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num29z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num31z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num31z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num31z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num32z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num32z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num32z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num33z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num34z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num34z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num34z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num35z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num36z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num37z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num37z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num37z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num38z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num38z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num38z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num39z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num39z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num39z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num40z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num40z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num40z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num41z0 {
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+span.WW8Num41z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num41z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num41z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num43z0 {
+	font-weight:normal;
+	font-style:normal;
+}
+
+span.WW8Num44z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num44z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num44z3 {
+	font-family:Symbol;
+}
+
+span.WW8Num45z0 {
+	font-family:Wingdings;
+}
+
+span.WW8Num46z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num46z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num46z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num47z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num48z0 {
+	font-family:Symbol;
+}
+
+span.WW8NumSt5z1 {
+	font-family:"Courier New";
+}
+
+span.WW8NumSt5z2 {
+	font-family:Wingdings;
+}
+
+span.WW8NumSt5z3 {
+	font-family:Symbol;
+}
+
+span.InitialStyle {
+	font-family:"Courier New";
+	color:windowtext;
+	letter-spacing:0pt;
+}
+
+span.Viñetas {
+	font-family:StarSymbol;
+}
+
+p.Etiqueta {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-style:italic;
+}
+
+p.Índice {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Encabezado1 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Textoindependiente31 {
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:6.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.SangríadetextonormalCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Textoindependiente21 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:24.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.BodyText21 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Mapadeldocumento1 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	background:navy;
+	font-size:11.0pt;
+	font-family:"Tahoma"   ,sans-serif;
+}
+
+p.Bor {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.EstiloTítulo2Antes24pto {
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:13.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.Textoindependiente32 {
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:6.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.EstiloAntes48ptoDespués0pto {
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Índicel10 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:127.35pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Contenidodelatabla {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Encabezadodelatabla {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+	font-style:italic;
+}
+
+p.Contenidodelmarco {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Líneahorizontal {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:14.15pt;
+	margin-left:0cm;
+	text-align:justify;
+	border:none;
+	padding:0cm;
+	font-size:6.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Titulo3AD {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-variant:small-caps;
+	color:black;
+	font-weight:bold;
+}
+
+p.EstiloTítulo114ptIzquierdaIzquierda0cmPrimeralínea {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.Textoindependiente3Car {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.lastincell {
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.NormalWeb3 {
+	margin-top:7.55pt;
+	margin-right:0cm;
+	margin-bottom:7.55pt;
+	margin-left:0cm;
+	text-align:left;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+span.AsuntodelcomentarioCar1 {
+	font-weight:bold;
+}
+
+p.Párrafodelista11 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:35.4pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.titul1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	text-indent:-14.15pt;
+	font-size:20.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+p.Paragraph2 {
+	margin-top:4.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+	color:black;
+}
+
+span.TextosinformatoCar {
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.BodyText31 {
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:6.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.Sangría3detindependienteCar {
+	font-family:"Times New Roman"   ,serif;
+}
+
+span.Sangría2detindependienteCar {
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.Anexo {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.TableHeading {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+	font-style:italic;
+}
+
+p.TITULO {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-18.0pt;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+span.TITULOCar {
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+p.EstiloCentrado {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Century Gothic"   ,sans-serif;
+}
+
+p.Textoindependiente321 {
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	punctuation-wrap:simple;
+	text-autospace:ideograph-numeric;
+	font-size:6.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Tablas {
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:22.0pt;
+	margin-bottom:.0001pt;
+	text-align:left;
+	text-indent:-22.0pt;
+	line-height:12.0pt;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman"   ,serif;
+	font-variant:small-caps;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.Tabla {
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:9.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+}
+
+p.cuadro {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	border:none;
+	padding:0cm;
+	font-size:16.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-variant:small-caps;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:133%;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.Textoindependiente2Car {
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Codigo {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Courier \(W1\)";
+}
+
+p.contenido {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Bibliografia {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	layout-grid-mode:line;
+}
+
+p.Heading1FormatOnly {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:left;
+	border:none;
+	padding:0cm;
+	font-size:16.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+p.Comment {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+	color:navy;
+	font-style:italic;
+}
+
+p.TableText {
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.TableColHead {
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:9.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+p.Deliverable {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:14.4pt;
+	text-align:justify;
+	text-indent:-14.4pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.FooterFirst {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Garamond"   ,serif;
+	letter-spacing:-.1pt;
+}
+
+p.Cuadro2 {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:14.0pt;
+	font-family:"Garamond"   ,serif;
+	color:black;
+	layout-grid-mode:line;
+	font-weight:bold;
+}
+
+p.TLista1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:1.0cm;
+	text-align:justify;
+	text-indent:-21.25pt;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+}
+
+p.BodyTextElegant {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:14.0pt;
+	font-size:10.0pt;
+	font-family:"Garamond"   ,serif;
+}
+
+p.citación {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:191.4pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-style:italic;
+}
+
+p.PullquoteElegant {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Garamond"   ,serif;
+	color:purple;
+	font-style:italic;
+}
+
+p.Viñeta {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.fig {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:8.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Titulotabla {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Arial"   ,sans-serif;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+p.IdReq {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:10.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+p.Car {
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:12.0pt;
+	font-size:10.0pt;
+	font-family:"Verdana"   ,sans-serif;
+	color:fuchsia;
+}
+
+p.NoSpacing1 {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	layout-grid-mode:line;
+}
+
+p.ListParagraph1 {
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:35.4pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.TableContents {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times"   ,serif;
+}
+
+span.SinespaciadoCar {
+	font-family:"Arial"   ,sans-serif;
+	color:black;
+	layout-grid-mode:both;
+}
+
+span.CitadestacadaCar {
+	font-family:"Lucida Sans Unicode"   ,sans-serif;
+	color:#0F6FC6;
+	font-weight:bold;
+	font-style:italic;
+}
+
+p.propuestas {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Helvetica Neue CE 55 Roman";
+	color:black;
+}
+
+p.titulosiniciocapitulos {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	line-height:120%;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+	color:#006F3B;
+}
+
+span.titulosiniciocapitulosCar {
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+	color:#006F3B;
+}
+
+p.Titulo1 {
+	margin-top:24.0pt;
+	margin-right:-.05pt;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+	font-weight:bold;
+}
+
+span.Titulo1Car {
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+	text-transform:none;
+	background:#E0E0E0;
+	font-weight:bold;
+}
+
+p.Cuerpodetextosinsangria {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.CuerpodetextosinsangriaCar {
+	font-family:"Arial"   ,sans-serif;
+}
+
+span.CuerpodetextoCar {
+	font-family:"Humnst777 Lt BT"   ,sans-serif;
+	color:#006F3B;
+}
+
+p.Subtituloprimernivel {
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+	font-weight:bold;
+}
+
+span.SubtituloprimernivelCar {
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+	text-transform:none;
+	background:#E0E0E0;
+	font-weight:bold;
+}
+
+p.Subtitulosegundonivel {
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+}
+
+span.SubtitulosegundonivelCar {
+	font-family:"Arial"   ,sans-serif;
+	color:#8496B0;
+	text-transform:none;
+	background:#E0E0E0;
+	font-weight:normal;
+}
+
+span.CommentTextChar1 {
+	font-family:"Times New Roman"   ,serif;
+}
+
+span.CommentSubjectChar1 {
+	font-family:"Arial"   ,sans-serif;
+	font-weight:bold;
+}
+
+span.labels1 {
+	color:black;
+}
+
+span.mensajes1 {
+	color:#CC0000;
+	font-weight:bold;
+}
+
+span.WW8Num3z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num3z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num4z0 {
+	font-family:Symbol;
+}
+
+span.WW8Num4z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num4z2 {
+	font-family:Wingdings;
+}
+
+span.WW8Num1z1 {
+	font-family:"Courier New";
+}
+
+span.WW8Num1z2 {
+	font-family:Wingdings;
+}
+
+span.eacep1 {
+	color:black;
+}
+
+p.Encabezado2 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:left;
+	font-size:14.0pt;
+	font-family:"Arial"   ,sans-serif;
+}
+
+p.Listaconviñetas1 {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:left;
+	font-size:12.0pt;
+	font-family:"Times New Roman"   ,serif;
+}
+
+p.DecimalAligned {
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:left;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri"   ,sans-serif;
+}
+
+span.Símbolodenotaalpie {
+	vertical-align:super;
+}
+
+p.Normal3 {
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Calibri"   ,sans-serif;
+	font-style:italic;
+}
+
+span.Normal3Car {
+	font-family:"Times New Roman"   ,serif;
+	font-style:italic;
+}
+
+p.Título31 {
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:left;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:"Arial"   ,sans-serif;
+	color:#004080;
+	font-weight:bold;
+}
+
+span.Ins {
+	text-decoration:underline;
+	text-underline:single;
+	color:teal;
+}
+
+span.Del {
+	text-decoration:line-through;
+	color:red;
+}
+
+OL {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+UL {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+

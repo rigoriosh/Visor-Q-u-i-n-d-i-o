@@ -1,0 +1,29 @@
+.jimu-widget-refrescar{
+    background-color: #ccc;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    text-align: center;
+    font-family: verdana,helvetica;
+    border-radius: 5px;
+
+
+}
+
+.jimu-widget-refrescar .refrescar{
+
+    width: 30px;
+    height: 26px;
+}
+
+.jimu-widget-refrescar .refrescar:hover{
+    background-color: #848385;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+  }

@@ -1,0 +1,107 @@
+   <div id="consultaAmbiental" data-dojo-type="dijit/TitlePane" data-dojo-props="title:'consultaAmbiental', closable:false, open:false">
+
+    <div id="divtTablaConsultaAmbiental" style="display: none; width: 450px;">
+        <p id="titleChart" style="margin-bottom: 0rem; justify-content: center;"></p>
+        <p id="subtitle"></p>
+         
+        <div id="divGraficaConsultaAmbiental" style="width: 450px; height: 350px;"></div>
+        <div id="leyendaGraficaConsulta" class="leyendaGraficaConsulta"></div>
+
+        <div id="gridDivConsultaAmbiental" >
+        </div>
+        <div id="divBotonesTablaConsulta" class="form-row text-center">
+            <button id="botonRegresar" style="padding-right: 34px;"  class="imgbtn daicon-open">Par&aacute;metros</button>
+            <button id="btnExportar" style="padding-right: 34px;" class="imgbtn daicon-open" onclick="Exportar()">Exportar</button>
+            <button id="btnLimpiar" style="padding-right: 34px;" class="imgbtn daicon-open">Limpiar</button>
+            <button id="ButtonSiguiente" class="imgbtn daicon-open" style="display: none; padding-right: 34px;">Siguiente</button>
+    </div>
+    </div>
+    <div id="divConsultaAmbienta">
+        <div id="divArea" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">
+                &Aacute;rea:&nbsp;</label>
+            </label>
+            <select id="selecArea" class="selectConsultaAmbienta"></select>
+        <br />
+        </div>
+    
+        <div id="divTematica" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">
+            Tem&aacute;tica:
+            </label>
+            <select id="selectTematica" class="selectConsultaAmbienta" disabled></select>
+        <br />
+        </div>
+    
+        <div id="divCategoria" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">
+            Categor&iacute;a:
+            </label>
+            <select id="selectCategoria" class="selectConsultaAmbienta" disabled></select>
+        <br />
+        </div>
+    
+        <div id="divSubCategoria" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">SubCategor&iacute;a:</label>
+            <select id="selectSubCategoria" class="selectConsultaAmbienta" disabled></select>
+        <br />
+        </div>
+    
+        <div id="divNombre" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">Nombre:</label>
+            <select id="selectNombre" class="selectConsultaAmbienta" disabled></select>
+        </div>
+        <div id="divAnio" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">A&ntilde;o:</label>
+            <select id="selectAnio" class="selectConsultaAmbienta" disabled></select>
+        </div>    
+
+        <div id="divMunicipio" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">Municipio:</label>
+            <select id="selectMunicipio" class="selectConsultaAmbienta" disabled></select>
+        <br />
+        </div>
+    
+        <div id="divFechaInicio" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">Fecha inicio:</label>
+            <div id="inputFechaInicio">
+                <div class="input-group date fechaConsultaAmbiental">
+
+                    <input id="fechaInicio" type="text" class="form-control" style="font-size: 14px;">
+                    <span class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="divFechaFin" class="divOpcionesConsultaAmbiental">
+            <label class="tituloLabelConsultaAmbienta">Fecha fin:</label>
+            <div id="inputFechaFin">
+                <div class="input-group date fechaConsultaAmbiental">
+                    <input id="fechaFin" type="text" class="form-control" style="font-size: 14px;">
+                    <span class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    <p id="fechaInicial"></p>
+        <div id="divBotonesBusqueda" style="display: flex; justify-content: center">
+            <div id="div1" class="form-row text-center">
+                <button id="btnLimpiarCA" class="imgbtn daicon-open"  style="width: 100px; padding-right: 38px;">Limpiar</button>
+            </div>
+            <div id="divBotonBuscar" class="form-row text-center">
+                <button id="botonBuscar" class="imgbtn daicon-open"  style="width: 100px; padding-right: 38px;" disabled>Buscar</button>
+            </div>            
+        </div>
+
+        <div id="divCalendario" class="divOpcionesConsultaAmbiental" style="display: none;">
+        <div id="calendario"></div>
+        <br />
+    </div>
+    
+
+
+</div>
+</div>

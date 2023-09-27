@@ -1,0 +1,73 @@
+<div id="consultaAvanzadaAlfa">	
+	<div id="divFormularioCAAlfa">
+		<table>
+			<tr>
+				<td >
+						<label id="lblConsultaPor" style="font-weight: bold; text-align: left; width:82%">Tema:</label>
+				</td>					
+				<td >
+						<select id="selectServiciosCAAlfa" style="width: 230px">
+                              
+						</select>
+				</td>					
+			</tr>
+		</table>
+		
+			<br>
+				
+		<div id="divCamposCAAlfa" style="font-weight: bold; text-align: left; width:100%">Campos: &nbsp;
+			<select id="selectCamposCAAlfa" style="width:100%" size="3">
+			</select>
+			</div>
+	
+		<div id="divValoresCAAlfa" style="font-weight: bold; text-align: left; width:100%"> Valores: &nbsp;
+            <div style="display:flex; justify-content: center;">
+				<center><button id="btnObtenerValoresCAAlfa" class="imgbtn daicon-open" type="button" style="width:94px">Obtener</button></center>            
+            <center><button id="Button1" class="imgbtn daicon-open" type="button" onclick="borrarFiltroCAA()" style="width:86px">Borrar</button></center>
+                </div>
+				<div class="block1">
+					
+						<center><select id="selectValoresCAAlfa" style="min-width:100%; overflow-x: visible" size="3" draggable="true" multiple></select></center>
+					
+				</div>						
+			</div>
+			<br>
+		<div id="divBotones1CAAlfa">
+			<center>
+				<button id="btnLikeCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('LIKE')">LIKE</button>
+				<button id="btnAndCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('AND')">AND</button>
+				<button id="btnOrCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('OR')">OR</button>
+				<button id="btnNotCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('NOT')">NOT</button>
+				<button id="btnIsCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('IS')">IS</button>
+				<button id="btnNullCAAlfa" class="btnCA" type="button" onclick="obtenerBotonesConsultaCAA('NULL')">NULL</button>
+			</center>
+			</div>
+		<div id="divBotones2CAAlfa">
+			<center>
+				<button class="btnCA" type="button" value ="igual" onclick="obtenerBotonesConsultaCAA('=')">=</button>
+				<button class="btnCA" type="button" value ="diferente" onclick="obtenerBotonesConsultaCAA('<>')"><></button>
+				<button class="btnCA" type="button" value ="mayor" onclick="obtenerBotonesConsultaCAA('>')">></button>
+				<button class="btnCA" type="button" value ="menor" onclick="obtenerBotonesConsultaCAA('<')"><</button>
+				<button class="btnCA" type="button" value ="mayorigual" onclick="obtenerBotonesConsultaCAA('>=')">>=</button>
+				<button class="btnCA" type="button" value ="menorigual" onclick="obtenerBotonesConsultaCAA('<=')"><=</button>
+			</center>
+			</div>
+			<br>
+		<div id="divCondicionBusquedaCAAlfa" style="font-weight: bold; text-align: center;">Condición de Búsqueda:
+			<textarea id="textCondicionBusquedaCAAlfa" style="width:100%; resize:none;" ></textarea>
+			
+			<button style="width: 90px; padding-right: 38px;" id="btnBorrarCondicionBusquedaCAAlfa" class="imgbtn daicon-open"  type="button" onclick="borrarTextAreaConsultaCAA()">Limpiar</button>	
+            <button id="btnEjecutarConsultaCAAlfa"  class="imgbtn daicon-open"  style="width:0em; padding-right: 75px;" type="button" >Buscar</button>					
+			</div>						
+			<br>	
+	</div>	
+	<div id="divtTablaCAAlfa" style="display: none;">	
+
+        <div id="divGridQueryAdvancedCAAlfa" style=" @import '{{dataUrl}}dojox/grid/resources/claroGrid.css'">   </div>	 	     
+         <br />	
+		<button id="botonRegresarCAAlfa" style="padding-right: 38px;" class="imgbtn daicon-open" >Par&aacute;metros consulta</button>
+		<button id="btnExportarCAAlfa" style="padding-right: 38px;" class="imgbtn daicon-open" onclick="ExportarCAA()" >Exportar</button>
+		    
+					
+		</div>		
+</div>

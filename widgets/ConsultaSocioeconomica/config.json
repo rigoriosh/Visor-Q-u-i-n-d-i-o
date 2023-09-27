@@ -1,0 +1,176 @@
+{
+    "configText": "consultaSocioeconomica",
+    "opcionesConsulta": [
+        "Población",
+        "Desplazados",
+        "Necesidades Básicas Insatisfechas (NBI)",
+        "Indicadores Socieconómicos",
+        "Cobertura de Servicios Públicos"
+    ],
+    "consultaAnioPoblacion": "10",
+    "idCapaConsultaPoblacion": "4",
+    "idCapaConsultaPoblacionEdadSimple" : "2",
+    "idCapaConsultaPoblacionQuinquenal" : "5",
+    "idCapaConsultaPoblacionSisben" : "7",
+    "idCapaConsultaAnioNBI" : "1",
+    "idCapaConsultaServiciosPublicos" : "9",
+    "tituloLeyendaPoblacion" : "Población Total",
+    "tituloLeyendaNBI" : "NBI - Total Cve",
+    "tituloLeyendaDesplazados" : "Personas desplazadas",
+    "tituloLeyendaDesnutricion" : "Índice de desnutrición",
+    "tituloLeyendaServiciosPublicos" : "Cobertura del servicio público",
+    "leyendaPoblacion": [
+        {
+            "colorFondo": "255,0,0,0.4",
+            "colorLine": "255,0,0,1",
+            "minimo": "0",
+            "maximo": "10000",
+            "label": "0 a 10.000"
+        },
+        {
+            "colorFondo": "0,0,255,0.4",
+            "colorLine": "0,0,255,1",
+            "minimo": "10001",
+            "maximo": "20000",
+            "label": "10.001 a 20.000"
+        },
+        {
+            "colorFondo": "255,255,0,0.4",
+            "colorLine": "255,255,0,1",
+            "minimo": "20001",
+            "maximo": "50000",
+            "label": "20.001 a 50.000"
+        },
+        {
+            "colorFondo": "51, 153, 51,0.4",
+            "colorLine": "51, 153, 51,1",
+            "minimo": "50001",
+            "maximo": "20000000",
+            "label": "Mayor a 50.000"
+        }
+    ],
+    "leyendaNBI": [
+        {
+            "colorFondo": "51, 153, 51,0.4",
+            "colorLine": "51, 153, 51,1",
+            "minimo": "0",
+            "maximo": "8",
+            "label": "Hasta el 7% Precisa"
+        },
+        {
+            "colorFondo": "0,0,255,0.4",
+            "colorLine": "0,0,255,1",
+            "minimo": "8",
+            "maximo": "14",
+            "label": "8 al 14 % Aceptable"
+        },
+        {
+            "colorFondo": "255,255,0,0.4",
+            "colorLine": "255,255,0,1",
+            "minimo": "14",
+            "maximo": "20",
+            "label": "15 al 20 % Regular"
+        },
+        {
+            "colorFondo": "255,0,0,0.4",
+            "colorLine": "255,0,0,1",
+            "minimo": "20",
+            "maximo": "100",
+            "label": "Mayor al 20% Poco precisa"
+        }
+    ],
+    "leyendaDesplazados": [
+        {
+            "colorFondo": "255,0,0,0.4",
+            "colorLine": "255,0,0,1",
+            "minimo": "0",
+            "maximo": "50",
+            "label": "0 a 50"
+        },
+        {
+            "colorFondo": "0,0,255,0.4",
+            "colorLine": "0,0,255,1",
+            "minimo": "51",
+            "maximo": "100",
+            "label": "51 a 100"
+        },
+        {
+            "colorFondo": "255,255,0,0.4",
+            "colorLine": "255,255,0,1",
+            "minimo": "101",
+            "maximo": "150",
+            "label": "101 a 150"
+        },
+        {
+            "colorFondo": "51, 153, 51,0.4",
+            "colorLine": "51, 153, 51,1",
+            "minimo": "151",
+            "maximo": "10000000",
+            "label": "Mayor a 150"
+        }
+    ],
+    "leyendaDesnutricion": [
+        {
+            "colorFondo": "51, 153, 51,0.4",
+            "colorLine": "51, 153, 51,1",
+            "minimo": "0",
+            "maximo": "8",
+            "label": "0 a 7%"
+        },
+        {
+            "colorFondo": "0,0,255,0.4",
+            "colorLine": "0,0,255,1",
+            "minimo": "8",
+            "maximo": "14",
+            "label": "8 al 14%"
+        },
+        {
+            "colorFondo": "255,255,0,0.4",
+            "colorLine": "255,255,0,1",
+            "minimo": "14",
+            "maximo": "20",
+            "label": "15 al 20%"
+        },
+        {
+            "colorFondo": "255,0,0,0.4",
+            "colorLine": "255,0,0,1",
+            "minimo": "20",
+            "maximo": "100",
+            "label": "Mayor a 20%"
+        }
+    ],
+    "leyendaServiciosPublicos": [
+        {
+            "colorFondo": "0,0,255,0.4",
+            "colorLine": "0,0,255,1",
+            "minimo": "0",
+            "maximo": "25",
+            "label": "0 al 25%"
+        },
+        {
+            "colorFondo": "51, 153, 51,0.4",
+            "colorLine": "51, 153, 51,1",
+            "minimo": "25",
+            "maximo": "50",
+            "label": "25 al 50%"
+        },
+        {
+            "colorFondo": "255,255,0,0.4",
+            "colorLine": "255,255,0,1",
+            "minimo": "50",
+            "maximo": "75",
+            "label": "15 al 20%"
+        },
+        {
+            "colorFondo": "255,171,0,0.4",
+            "colorLine": "255,171,0,1",
+            "minimo": "75",
+            "maximo": "100",
+            "label": "Mayor a 75%"
+        }
+    ]
+
+
+
+
+}

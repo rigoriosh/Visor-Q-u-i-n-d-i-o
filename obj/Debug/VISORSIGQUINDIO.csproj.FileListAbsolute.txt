@@ -1,0 +1,16 @@
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\VISORSIGQUINDIO.dll.config
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\VISORSIGQUINDIO.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\VISORSIGQUINDIO.pdb
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\Newtonsoft.Json.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Net.Http.Formatting.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Web.Http.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Web.Http.WebHost.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\Newtonsoft.Json.xml
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Net.Http.Formatting.xml
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Web.Http.xml
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\bin\System.Web.Http.WebHost.xml
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\obj\Debug\VISORSIGQUINDIO.csproj.AssemblyReference.cache
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\obj\Debug\VISORSIGQUINDIO.csproj.CoreCompileInputs.cache
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\obj\Debug\VISORSIGQUINDIO.csproj.CopyComplete
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\obj\Debug\VISORSIGQUINDIO.dll
+D:\Contratos\@repo\sig-quindio-front-end\VISORSIGQUINDIO\obj\Debug\VISORSIGQUINDIO.pdb

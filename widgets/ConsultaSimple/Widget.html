@@ -1,0 +1,123 @@
+<div>
+
+	<div id="divOpcionesConsultaSimple" style="display: table-row;">
+
+		<table>
+			<tr class="trConsultaSimple">
+				<td>
+					<p>
+
+						<label id="serviciosLabel" class="labelConsultaSimple">Servicios :</label>
+					</p>
+				</td>
+				<td>
+					<select id="selServicios" style="width: 220px;  height:25px;" onchange="if(this.selectedIndex >=0) configureDropDownLists(this)">
+						<option value="Seleccione...">Seleccione...</option>
+					
+					</select>
+				</td>
+			</tr>
+
+			<tr class="trConsultaSimple">
+				<td>
+					<p>
+
+						<label id="grupoLabel" class="labelConsultaSimple">Grupos : </label>
+
+					</p>
+				</td>
+				<td>
+
+					<select id="selGrupos" style="width: 220px;  height:25px;" onchange="configureDropDownListCapas(this, document.getElementById('selCapas'), document.getElementById('selServicios'))">
+						<option value="">Seleccione...</option>
+
+					</select>
+				</td>
+			</tr>
+
+
+			<tr class="trConsultaSimple">
+				<td>
+					<p>
+						<label id="capasLabel" class="labelConsultaSimple">Capas :</label>
+					</p>
+				</td>
+				<td>
+					<select id="selCapas" style="width: 220px;  height:25px;" onchange="configureDropDownListCampos(this)">
+						<option value="">Seleccione...</option>
+
+					</select>
+				</td>
+			</tr>
+
+			<tr class="trConsultaSimple">
+				<td style="vertical-align: top;">
+					<p>
+						<label id="camposLabel" class="labelConsultaSimple">Campos :</label>
+					</p>
+				</td>
+				<td>
+					<select multiple id="txtCampos" size="3" class="camposMultiplesConsultaSimple" onchange="configureDropDownListIngresarCampos(this)"></select>
+
+				</td>
+
+			</tr>
+
+
+			<tr class="trConsultaSimple">
+				<td style="vertical-align: top;">
+					<p>
+						<label id="valoresLabel" class="labelConsultaSimple">Valores :</label>
+					</p>
+				</td>
+				<td>
+					<select multiple id="selValores" size="3" class="camposMultiplesConsultaSimple" onchange="configureDropDownListValores(this)"></select>
+
+				</td>
+			</tr>
+
+
+			<tr class="trConsultaSimple">
+				<td>
+					<p>
+						<label id="textoBusquedaLabel" class="labelConsultaSimple">Texto busqueda :</label>
+					</p>
+				</td>
+				<td>
+					<input id="textBusqueda" name="textBusqueda" rows="1" cols="23" style="width: 220px;"></input>
+				</td>
+
+			</tr>
+
+
+		</table>
+        
+		<div id="botonesConsultaSimple" class="form-row text-center">
+				<button type="button" class="imgbtn daicon-open" id="btnLimpiar" style="padding-right: 38px;" onclick="limpiar()">Limpiar</button>
+				<button type="button" class="imgbtn daicon-open" id="btnBuscar"  style="padding-right: 38px;" onclick="consultaSimple()">Buscar</button>
+		</div>
+	</div>
+	<div id="divResultadosConsultaSimple" style="display: none;">
+
+		<div id="divTablaConsultaSimple"></div>
+        <br />
+		<div id="botonesTablaConsultaSimple" class="form-row text-center">
+			
+		    <button type="button" class="imgbtn daicon-open" id="botonRegresarConsultaSimple" style="padding-right: 38px;" onclick="volverParametrosConsultaSimple()">Par&aacute;metros</button>
+		    <button type="button" class="imgbtn daicon-open" id="btnExportarConsultaSimple" style="padding-right: 38px;" onclick="ExportarCsvSimple()" >Exportar</button>
+				
+		
+		</div>
+	</div>
+
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<!-- <span class="close">&times;</span> -->
+			<p id="textoModal"></p>
+		</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,102 @@
+
+<div id="consultaAvanzada" style=" width: 341px">	
+	<div id="divFormularioCA">
+
+		<table>
+			<tr>
+				<td>
+					<label id="lblServciosCA" class = "labeltCA">Servicios:</label>
+				</td>
+				<td>
+					<select id="selectServiciosCA" class="selectCA"></select>
+				</td>
+			</tr>
+			<tr>				
+					<td>
+						<label id="lblGruposCA" class = "labeltCA">Grupos:</label>
+					</td>
+					<td>
+						<select id="selectGruposCA" class="selectCA"></select>
+					</td>				
+			</tr>
+			<tr>
+				<td>
+					<label id="lblCapasCA" class = "labeltCA">Capas:</label>
+				</td>
+				<td>
+					<select id="selectCapasCA" class="selectCA"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label id="lblCamposCA" class = "labeltCA">Campos:</label>
+				</td>
+				<td>
+						<select id="selectCamposCA" class="selectCA" size="2"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label id="lblValoresCA" class = "labeltCA">Valores:</label>
+				</td>
+				<td>
+					<select id="selectValoresCA" class="selectCA" size="2"></select>
+				</td>
+				<td>
+					<center><button id="btnObtenerValoresCA" class="btnCA" style="width: 46px!important" type="button">Obtener</button></center>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class = "labeltCA">Condición de Búsqueda:</label>
+				</td>
+				<td>
+					<textarea id="textCondicionBusquedaCA" style="width:100%; resize:none;" ></textarea>
+				</td>
+				<td>
+					<center><button id="btnBorrarCondicionBusquedaCA" class="btnCA" type="button" onclick="borrarTextAreaConsulta()">Borrar</button></center>
+				</td>
+			</tr>
+		</table>
+		
+				<div id="divBotones2CA">
+					<center>
+						<button class="btnCA" type="button" value ="igual" onclick="obtenerBotonesConsulta('=')">=</button>
+						<button class="btnCA" type="button" value ="diferente" onclick="obtenerBotonesConsulta('<>')"><></button>
+						<button class="btnCA" type="button" value ="mayor" onclick="obtenerBotonesConsulta('>')">></button>
+						<button class="btnCA" type="button" value ="menor" onclick="obtenerBotonesConsulta('<')"><</button>
+						<button class="btnCA" type="button" value ="mayorigual" onclick="obtenerBotonesConsulta('>=')">>=</button>
+						<button class="btnCA" type="button" value ="menorigual" onclick="obtenerBotonesConsulta('<=')"><=</button>
+					</center>
+					</div>					
+					<div id="divBotones1CA">
+						<center style="margin-top: 5px">
+							<button id="btnLikeCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('LIKE')">LIKE</button>
+							<button id="btnAndCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('AND')">AND</button>
+							<button id="btnOrCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('OR')">OR</button>
+							<button id="btnNotCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('NOT')">NOT</button>
+							<button id="btnIsCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('IS')">IS</button>
+							<button id="btnNullCA" class="btnCA" type="button" onclick="obtenerBotonesConsulta('NULL')">NULL</button>
+						</center>
+						</div>
+					
+		
+			
+			<div id="divBotones3CA" class="form-row text-center">
+				<br>
+					<center style="margin-bottom: -41px; margin-top: -8px">
+                        <button id="btnLimpiarCAv"  class="imgbtn daicon-open"  style="padding-right: 38px;" type="button" >Limpiar</button>
+					<button id="btnEjecutarConsultaCA"  class="imgbtn daicon-open"  style="padding-right: 38px;" type="button" >Buscar</button>
+						</center>
+				</div>
+				
+	</div>
+    <div id="divGridQueryAdvancedCA" style="display:none; margin-bottom: 10px; width:450px; height:20em; @import '{{dataUrl}}dojox/grid/resources/claroGrid.css'">            
+	</div>	
+    <div id="botonesCA" style="display:none">
+        <button id="botonRegresarCA"  class="imgbtn daicon-open" >Par&aacute;metros consulta</button>
+		<button id="btnExportarCA"  class="imgbtn daicon-open"  onclick="Exportar()" >Exportar</button>
+    </div>     
+		<br>
+	<br>
+</div>

@@ -1,0 +1,152 @@
+<div>
+	<div id="widgetCCT" onclick="imagenClick()">
+		
+	</div>
+	<div id="divFormularioConsultaCT">			
+			<table>
+			<tr>
+				<td >
+						<label class="tituloCCT">Temática:</label>
+				</td>					
+				<td >
+						<select id="selectTematicaConsultaCT" class = "selectCCT"></select>
+				</td>					
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCCT">Categoría:</label>
+				</td>
+				<td>
+					<select id="selectCategoriaConsultaCT"class = "selectCCT"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCCT">Subcategoría:</label>
+				</td>
+				<td>
+					<select id="selectSubcategoriaConsultaCT" class = "selectCCT"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCCT">Municipio:</label>
+				</td>
+				<td>
+					<select id="selectMunicipioConsultaCT" class = "selectCCT"></select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label class="tituloCCT">Nombre:</label>
+				</td>
+				<td>
+					<select id="selectNombreConsultaCT" class = "selectCCT"></select>
+				</td>
+			</tr>
+			
+		</table>
+		<center style="display:flex; justify-content: center">				
+                <button type="button" style="margin-top: 8px; padding-right: 34px;" class="imgbtn daicon-open"   id="btnlimpiarCT">Limpiar</button>
+                <button type="button" style="margin-top: 8px; padding-right: 34px;" class="imgbtn daicon-open"   id="btnEjecutarConsultaCT">Buscar</button>
+				<button type="button" style="margin-top: 8px; padding-right: 34px;" class="imgbtn daicon-open" id="btnResultadosConsultaCT">Resultados</button>				
+		</center>
+		</div>
+
+	<div id="divtTablaConsultaCT" style="display: none; " class="resultados">						
+		<a id="botonRegresarConsultaCT" class="imgbtn daicon-open" style="padding-left:5px; margin: -4px !important; width: 11em !important;">Parámetros</a>	
+		<div id="idResultadosCultura" style="display: none;" class="resultados">
+				
+			<div id="form1CCT" class="formularioCCT">
+				<table>
+					<tr>
+						<td><label class="tituloCCT2">Nombre:</label></td>
+						<td><p id="NOMBRECCT" class="resultadosCCT"></p></td>
+						<td>
+							<div id="imgCCT" onclick="imagenClick()"></div>							
+
+						</td>
+					</tr>
+					<tr>
+						<td><label class="tituloCCT2">Dirección:</label></td>
+						<td><p id="DIRECCIONCCT" class="resultadosCCT"></p></td>
+					</tr>
+					<tr>
+						<td><label class="tituloCCT2">Teléfono:</label></td>
+						<td><p id="TELEFONOCCT" class="resultadosCCT"></p></td>
+					</tr>
+					<tr>
+						<td><label class="tituloCCT2">Sitio Web:</label></td>
+						<td><p id="URLCCT" class="resultadosCCT"></p></td>
+					</tr>
+				</table>																					
+				<a id="btnVerMasCCT" style="width: 103px!important;" class="imgbtn daicon-open botomCCT" title="Ver más">Ver más</a>
+			</div>
+
+			<div id="form2CCT" style="display: none;" class="formularioCCT">
+				<table>
+						<tr>
+							<td><label class="tituloCCT1">Persona contacto:</label></td>
+							<td><p id="PERSONACONTACTOCCT" class="resultadosCCT"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCCT1">Nit:</label></td>
+							<td><p id="NITCCT" class="resultadosCCT"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCCT1">Horario:</label></td>
+							<td><p id="HORARIOCCT" class="resultadosCCT"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCCT1">CIIU:</label></td>
+							<td><p id="CIIUCCT" class="resultadosCCT"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCCT1">RNT:</label></td>
+							<td><p id="RNTCCT" class="resultadosCCT"></p></td>
+						</tr>
+						<tr>
+							<td><label class="tituloCCT1">Registro mercantil:</label></td>
+							<td><p id="REGISTROMERCANTILCCT" class="resultadosCCT"></p></td>
+						</tr>
+				</table>
+				<div id="form3CCT" style="display: none";>
+					<div>
+						<table>
+							<tr>
+								<td>
+									<a id="btnCapaciadInstCCT"  class="imgbtn daicon-open botomCCT" title="Capacidad instalada">Capacidad instalada</a>
+								</td>
+								<td>
+									<a id="btnServiciosCCT" class="imgbtn daicon-open botomCCT1" title="Servicios">Servicios</a>
+								</td>
+							</tr>
+						</table>										
+				</div>
+					<div id="form4CCT" style="display: none";>
+						<table>
+							<tr>
+									<td><label class="tituloCCT3">Número de camas:</label></td>
+									<td><p id="NUMEROCAMASCCT" class="resultadosCCT"></p></td>
+							</tr>
+							<tr>
+									<td><label class="tituloCCT3">Número de habitaciones:</label></td>
+									<td><p id="NUMEROHABITACIONESCCT" class="resultadosCCT"></p></td>
+							</tr>
+							<tr>
+									<td><label class="tituloCCT3">Número de salones para eventos:</label></td>
+									<td><p id="SALONESEVENTOSCONFERENCIASCCT" class="resultadosCCT"></p></td>
+							</tr>
+						</table>
+					</div>
+					<div id="form5CCT" style="display: none";>
+						<select id="selectServiciosCCT" class = "selectCCT" size="2" style="width: 330px"></select>
+					</div>
+				</div>
+			</div>						
+				
+		</div>
+		
+	</div>
+</div>
+

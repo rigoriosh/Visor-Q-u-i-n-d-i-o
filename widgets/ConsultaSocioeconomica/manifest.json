@@ -1,0 +1,22 @@
+{
+  "name": "Consulta Socioeconómica",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.1",
+  "wabVersion": "0.1",
+  "author": "IGAC",
+  "description": "Widget Consulta Socioeconomica",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

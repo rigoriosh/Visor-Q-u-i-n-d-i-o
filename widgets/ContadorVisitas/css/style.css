@@ -1,0 +1,23 @@
+.jimu-widget-NumeroVisistas .contadorVisitas {
+    width: 215px;
+    height: 25px;
+    background-color: #ffffffc7;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: dotted;
+}
+
+.jimu-widget-NumeroVisistas .labelContador {
+    margin-left: 10px;
+    vertical-align: sub;
+    font-weight: bolder;
+}
+
+.jimu-widget-NumeroVisistas .labelNumeroVisitas {
+    margin-left: 10px;
+    vertical-align: sub;
+    font-weight: bolder;
+    width: 55px;
+    text-align: right;
+}

@@ -1,0 +1,89 @@
+
+
+
+<div>
+
+   <!--  <div>This is my widget.</div>
+	 <div>This is configurable.[${config.configText}]</div>
+	<div data-dojo-attach-point="mapIdNode"></div>-->
+
+	<div id="divFormularioCE">
+	
+        <table>
+           <tr>
+			  <td>
+				  <p><strong> Servicios :</strong></p>
+			  </td>
+			  <td> 
+				  <select id = "selServicioCE" style="width: 200px;" onchange="selServicioCE_selectedChanged(this)">
+				   
+				  
+				  </select>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		   <tr>
+			  <td>
+                  <p><strong> 
+				  <label id="grupoLabelCE">Grupos : </label> </strong></p>
+			  </td>
+			  <td> 
+			     
+				  <select id = "selGruposCE" style="width: 200px;" onchange="selGruposCE_selectedChanged()">
+				   <option value="">Seleccione...</option>
+				   
+				  </select>
+			  </td>
+		  </tr>
+		  
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		   <tr>
+			  <td>
+				 <p><strong> Capas : </strong></p>
+			  </td>
+			  <td> 
+				  <select id = "selCapasCE" style="width: 200px;"  onchange="selCapasCE_selectedChanged(this)">
+				   <option value="">Seleccione...</option>
+				  </select>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><br /></td>
+		  </tr>
+		 
+		
+    </table>
+    </div>
+    <div class="form-row text-center">
+      <div class="col-12" id="idDibujar">
+
+         
+  <!-- <input type="image" id="idPoligono" src="widgets/ConsultaEspacial/images/i_draw_poly.png" alt="Submit" onclick="dibujarPoligono()">
+           <input type="image" id="idRectangulo" src="widgets/ConsultaEspacial/images/i_draw_rect.png" alt="Submit">-->
+
+
+          <button type="button" class="tool poligonoLibreIcon" id="polyline"></button>
+         <button  type="button" class="tool poligonoIcon" id="extent" ></button>
+          
+      </div>
+   </div>
+<div id="divTablaCE" style="display: none;">
+		
+		
+		<div id="divTablaConsultaEspacial">
+		</div>
+       <br />
+		<div id="botonesTablaConsultaSocioeconomica" >
+				
+		    <button type="button" class="imgbtn daicon-open" id="botonRegresarIndustriaC"  onclick="volverParametrosConsultaE()">Par&aacute;metros consulta</button>
+				
+		    <button type="button" class="imgbtn daicon-open" id="btnExportarIndustriaC" onclick="ExportarCsvConsultaE()" >Exportar</button>		
+		</div>
+	</div>
+
+   
+</div>

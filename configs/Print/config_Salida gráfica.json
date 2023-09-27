@@ -1,0 +1,10 @@
+{
+  "serviceURL1": "http://190.85.164.30:6080/arcgis/rest/services/Print/A4_Horizontal/GPServer/Export%20Web%20Map",
+  "serviceURL2": "http://190.255.42.26:6080/arcgis/rest/services/Print/A4_Horizontal/GPServer/Exportar%20mapa%20Web",
+  "serviceURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "SIGQUINDIO",
+  "defaultAuthor": "Gobernación del Quindío y la Corporación Autónoma Regional del Quindío",
+  "defaultCopyright": "Información sujeta a revisión y ajuste por las entidades productoras. Si tiene comentarios y observaciones con respecto a este producto, favor escribirnos al correo SIGQUINDIO@GMAIL.COM. Derechos Reservados.",
+  "defaultFormat": "PDF",
+  "defaultLayout": "Letter ANSI A Landscape"
+}

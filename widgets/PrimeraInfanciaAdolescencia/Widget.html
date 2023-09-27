@@ -1,0 +1,75 @@
+<div class="contendorPIA">
+   <div id="imgExpanPIA" style="display: none" onclick="imagenClickPIA()"></div>
+   <div id="divConsultaPIA">
+      <div id="divIndicadorPIA" style="display: none; margin-top: -13px; margin-bottom: -14px;">
+         <div style="width: 90px">
+            <label class="tituloLabelCPIA">Indicador:</label>
+         </div>
+         <div>
+            <select id="selectIndicadorPIA" style="width: 236px"></select>
+         </div>
+      </div>
+      <div id="divNivelPIA" style="display: none; margin-top: 16px">
+         <div style="width: 90px">
+            <label class="tituloLabelCPIA">Nivel:</label>
+         </div>
+         <div>
+            <select id="selectNivelPIA" style="width: 236px"></select>
+         </div>
+      </div>
+      <div id="divFechaInicioPIA" class="divOpcionesPIA">
+         <label class="tituloLabelCPIA">Desde:</label>
+         <div id="inputFechaInicioPIA">
+            <div class="input-group date fechaCPIA">
+               <input id="fechaInicioPIA" type="text" class="form-control" style="font-size: 14px;">
+               <span class="input-group-addon">
+               <i class="fa fa-calendar"></i>
+               </span>
+            </div>
+         </div>
+      </div>
+      <div id="divFechaFinPIA" class="divOpcionesPIA">
+         <label class="tituloLabelCPIA">Hasta:</label>
+         <div id="inputFechaFinPIA">
+            <div class="input-group date fechaCPIA">
+               <input id="fechaFinPIA" type="text" class="form-control" style="font-size: 14px;">
+               <span class="input-group-addon">
+               <i class="fa fa-calendar"></i>
+               </span>
+            </div>
+         </div>
+      </div>
+      <div id="divBotonesPia"  class="form-row text-center">
+         <br />
+         <div class="col-12">
+            <button type="button" class="imgbtn daicon-open " id="btnLimpiarPIA" onclick="limpiarPia()">Limpiar</button>
+            <button type="button" class="imgbtn daicon-open " id="btnBuscarPia"">Buscar</button>
+         </div>
+      </div>
+   </div>
+
+   <div id="divResultIndicadoresPIA" style="height: auto; display: none">
+      <div id="TituloGraficoPIA" style="display: none; justify-content: center;"></div>
+      <div id="grafIndicaPIA"></div>
+   
+      <div id="tablaIndcaPIA" style="display: none; width: 320px; height: 130px; overflow-x: auto; margin-top: 53px; border: groove"></div>
+
+   </div>
+   <div id="divBtnesFormularioPIA" style="display: none; ">
+       <br />
+        <div id="divBotonesRespuesta" style="display: none;" class="form-row text-center">
+        
+            <button type="button" class="imgbtn daicon-open btnPIA"  id="btnResultadosPIA" onclick="" >Par&aacute;metros</button>
+            <button type="button" class="imgbtn daicon-open btnPIA"  style="left: 18px; bottom: 24px" id="exportarPIA" onclick="ExportarCE()" >Exportar</button>
+            <button type="button" class="imgbtn daicon-open btnPIA"  style="bottom: 48px;left: 252px;" id="siguientePIA"  onclick=""  >Siguiente</button>
+
+
+        </div>
+     
+      <div>
+         <a id="btnRegresarPIA" class="imgbtn daicon-open" style="display: none; width: 103px; margin-top: 6px">Regresar</a>	
+      </div>
+   
+      
+   </div>
+</div>

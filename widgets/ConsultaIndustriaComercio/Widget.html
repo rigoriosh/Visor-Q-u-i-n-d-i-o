@@ -1,0 +1,102 @@
+<div>
+
+	<!--  <div>This is my widget.</div>
+	 <div>This is configurable.[${config.configText}]</div>
+	<div data-dojo-attach-point="mapIdNode"></div>-->
+    <div id="divOpcionesIndustriaComercio" style="display: table-row;">
+	<table>
+		<tr class="trConsultaIndustriaComercio">
+			<td>
+				<label class="labelConsultaIndustriaComercio">Consulta por:</label>
+			</td>
+			<td>
+				<select id="selConsultaIC" style="width: 200px; height:25px;" onchange="consultaPor_selectedChanged(this)">
+					<option value="0">Seleccione...</option>
+
+				</select>
+			</td>
+		</tr>
+
+		<tr class="trConsultaIndustriaComercio">
+			<td>
+
+				<label class="labelConsultaIndustriaComercio" id="LabelMunicipio">Municipio: </label>
+			</td>
+			<td>
+
+				<select id="selMunicipioIC" style="width: 200px; height:25px;" onchange="municipios_selectedChanged(this)">
+					<option value="">Seleccione...</option>
+
+				</select>
+			</td>
+		</tr>
+
+
+		<tr class="trConsultaIndustriaComercio">
+			<td>
+				<label class="labelConsultaIndustriaComercio">Tipo establecimiento: </label>
+
+			</td>
+			<td>
+				<select id="selTipoIC" style="width: 200px; height:25px;" onchange="tipoEstablecimiento_selectedChanged(this)">
+					<option value="">Seleccione...</option>
+
+				</select>
+			</td>
+		</tr>
+
+	</table>
+	<div>
+		<input type="checkbox" id="cbox1" value="first_checkbox" onchange="selectedCheckBox(this)" style="vertical-align: middle;">
+		<label style="font-weight: bold;">Consultar por nombre establecimiento</label>
+	</div>
+	<table>
+
+		<tr class="trConsultaIndustriaComercio">
+			<td>
+
+				<label class="labelConsultaIndustriaComercio" id="labelNombre">Nombre establecimiento: </label>
+			</td>
+			<td>
+				<select id="selNombreIC" style="width: 200px; height:25px;"  >
+					<option value="">Seleccione...</option>
+
+				</select>
+			</td>
+		</tr>
+
+
+	</table>
+	<div id="botonesConsultaIndustriaC" class="form-row text-center">
+		
+        <button type="button" class="imgbtn daicon-open btnConsultaIndustriaComercio" id="btnLimpiarIc" onclick="LimpiarIc()">Limpiar</button>
+        <button type="button" class="imgbtn daicon-open btnConsultaIndustriaComercio" id="btnBuscar" onclick="consultaIndustriaComercio()">Buscar</button>
+	</div>
+    </div>
+     <div id="divResultadosConsultaIndustriaC" style="display: none;">
+
+		<div id="divTablaIndustriaC"></div>
+         <br />
+		<div id="botonesTablaIndustriaC" class="form-row text-center">
+			
+		    <button type="button" class="imgbtn daicon-open" id="botonRegresarIndustriaC"  onclick="volverParametrosIndustriaC()">Par&aacute;metros consulta</button>
+				
+		    <button type="button" class="imgbtn daicon-open" id="btnExportarIndustriaC" onclick="ExportarCsvIndustriaC()" >Exportar</button>
+            <button type="button" class="imgbtn daicon-open" id="btnImagen" onclick="createDialogImagen(true);">Ver imagen</button>
+				
+		
+		</div>
+	</div>
+
+	<!--	
+<div id="myModal" class="modal">
+
+  <!-- Modal content 
+  <div class="modal-content">
+   <!-- <span class="close">&times;</span> 
+    <p id= "textoModal"></p>
+  </div>
+
+</div>
+    -->
+</div>
